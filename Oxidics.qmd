@@ -1,0 +1,150 @@
+# Oxidic Soils {#sec-ord-X}
+
+## Concept of the Order {#sec-con-X}
+
+Oxidic Soils contain low-activity phyllosilicate clays and secondary oxides which give rise to variable charge properties. They form in the clayey weathering products of basic rocks. The soils have a fine or very fine polyhedral fabric with friable failure to stable microaggregates of 2 mm or less, and low plasticity in relation to clay content. Surface horizons are clayey, and an increase in clay content occurs with depth although clay illuvial features are generally not apparent.
+
+## Correlation {#sec-cor-X}
+
+The order comprises most of the strongly weathered red loams and brown loams, many northern brown granular clays, and a few brown granular soils from ash beds and basaltic and andesitic rocks of the NZ Genetic Soil Classification. It correlates with the Oxisols of Soil Taxonomy.
+
+## Occurrence {#sec-occ-X}
+
+Oxidic Soils are only known to occur in the Auckland and Northland regions.
+
+## Accessory Properties of the Order {#sec-acc-X}
+
+1.  *Low-activity clay.* CEC is low at field pH. ECEC is less than 12 cmol/kg (clay), and CEC less than 16 cmol/kg (clay). The soils are weakly buffered. Some subhorizons have a net positive charge. Oxidic Soils usually have the following mineralogy classes: Kandic, Ferritic or Aluminitic.
+2.  *High phosphate retention.* P-retention ranges from 60 to 90%. High sulphate adsorption occurs in B horizons.
+3.  *Parent materials.* The soils are derived from andesites, dolerites and basalts of Tertiary to Upper Cretaceous age.
+4.  *Limited root depth.* The extension of plant roots is limited by high dry bulk density and high penetration resistance, particularly in well drained soils. Plant root depths are shallow to medium.
+5.  *Moderate or rapid infiltration.* Hydraulic conductivity of surface horizons and upper B horizons is moderate or faster, giving excellent trafficability and workability immediately after rain.
+6.  *Slow permeability.* Hydraulic conductivity decreases to slow or marginally slow values with depth, such that perching of water occurs within the root zone after high intensity rainfalls. The duration of wetness varies from 1 to 2 days in well drained soils to 4 days or more in poorly drained soils.
+7.  *Soil water deficit.* Deficits occur in summer and are exacerbated by low readily available water capacities and shallow rooting depths.
+8.  *High clay contents.* Clay content ranges from 50 to 90%.
+9.  *Well developed structure.* Topsoils have mostly well developed spheroidal or polyhedral peds. Topsoil bulk densities are low.
+10. *Strongly weathered with very low nutrient reserves.* The soils have very low reserves of potassium, magnesium, calcium and phosphorus.
+
+## Summary of Oxidic Soils Hierarchy {#sec-sum-X}
+
+```{r}
+library(flextable)
+
+table_X <- data.frame(
+  'Code' = c(rep('XP', 2), 'XN', rep('XO', 3)),
+  'Group' = c(rep('Perch-gley', 2), 'Nodular', rep('Oxidic', 3)),
+  'Subgroup' = c('Nodular', 'Typic',
+                 'Typic',
+                 'Mottled', 'Brown', 'Typic'),
+  'Example_Series' = c('Kapiro', 'Otaha',
+                       'Okaihau',
+                       'Puketotara', 'Tanekaha', 'Kerikeri')
+) 
+
+ft_X <- flextable(table_X)
+ft_X <- bold(ft_X, part = 'head')
+ft_X <- merge_v(ft_X, 1)
+ft_X <- merge_v(ft_X, 2)
+ft_X <- valign(ft_X, j = c(1,2), valign = 'top')
+ft_X <- bold(ft_X, j = 1)
+ft_X <- set_table_properties(ft_X, layout = "autofit", width = 1)
+ft_X <- set_header_labels(ft_X, 
+                          'Example_Series' = 'Example Series')
+ft_X
+```
+
+## Key to Groups of Oxidic Soils {#sec-grp-X}
+
+#### **XP** {#sec-key-XP}
+
+Oxidic soils Soils that have both
+
+1.  a [gley profile form](diagnostics.qmd#sec-diag-gleypf), *and*
+2.  [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+
+::: {style="text-align: right"}
+[**PERCH-GLEY OXIDIC SOILS**](#sec-XP)
+:::
+
+#### **XN** {#sec-key-XN}
+
+Other Oxidic Soils that have a [nodular horizon](diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+[**NODULAR OXIDIC SOILS**](#sec-XN)
+:::
+
+#### **XO** {#sec-key-XO}
+
+Other Oxidic Soils.
+
+::: {style="text-align: right"}
+[**ORTHIC OXIDIC SOILS**](#sec-XO)
+:::
+
+## Key to Subgroups of Oxidic Soils {#sec-sub-X}
+
+### **XP** - PERCH-GLEY OXIDIC SOILS {#sec-XP}
+
+Perch-gley Oxidic Soils occur in sites that are periodically saturated (unless artificially drained). Wetness and associated reducing conditions are indicated by grey colours, and are caused by perching on a [slowly permeable layer](diagnostics.qmd#sec-diag-slowp).
+
+#### **XPN** {#sec-key-XPN}
+
+Perch-gley Oxidic Soils that have a [nodular horizon](diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Nodular Perch-gley Oxidic Soils**
+:::
+
+#### **XPT** {#sec-key-XPT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Perch-gley Oxidic Soils**
+:::
+
+### **XN** - NODULAR OXIDIC SOILS {#sec-XN}
+
+Nodular Oxidic Soils occur in clayey soil materials derived from Pliocene or early Pleistocene basalts. They have clay-enriched B horizons and a prominent layer of iron oxide nodules. The soils have extremely low CEC (at natural pH) and natural fertility. Intermittent wetness is usual.
+
+#### **XNT** {#sec-key-XNT}
+
+Only one subgroup is recognised.
+
+::: {style="text-align: right"}
+**Typic Nodular Oxidic Soils**
+:::
+
+### **XO** - ORTHIC OXIDIC SOILS {#sec-XO}
+
+Orthic Oxidic Soils occur in clayey soil materials derived from early to mid-Pleistocene basalts. They have clay-enriched B horizons but lack prominent nodules, although up to 2% may be present in some horizons.
+
+#### **XOM** {#sec-key-XOM}
+
+Orthic Oxidic Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Orthic Oxidic Soils**
+:::
+
+#### **XOB** {#sec-key-XOB}
+
+Other soils that have within 90 cm of the mineral soil surface, *either*
+
+1.  a clay decrease with depth of more than one-fifth of the clay percentage of the horizon with maximum clay, or
+2.  more than 5% weathered gravel, within 90 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Brown Orthic Oxidic Soils**
+:::
+
+#### **XOT** {#sec-key-XOT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Orthic Oxidic Soils**
+:::
+
+{{< pagebreak >}}
