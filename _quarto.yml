@@ -39,7 +39,6 @@ book:
 
 
 bibliography: NZSC_reference_list_3e.bib
-#csl: geoderma.csl
 
 format:
   html:
