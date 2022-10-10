@@ -1,0 +1,5 @@
+# Acknowledgements {#sec-ack}
+
+Many have contributed to the development of this version, but in particular the guidance and encouragement of Ben Clayden is gratefully acknowledged. Alastair Wilson advanced the work considerably by developing the hierarchies of the [Oxidic](key-to-orders.qmd#sec-O) and [Granular Soils](key-to-orders.qmd#sec-N) orders, the [Mafic Brown Soils](key-to-orders.qmd#sec-BM) subgroups and revising the [Ultic Soils](key-to-orders.qmd#sec-U) hierarchy. The [Allophanic Soils](key-to-orders.qmd#sec-L) and [Pumice Soils](key-to-orders.qmd#sec-M) proposals are adapted from the ICOMAND proposal [@parfitt1991] and Roger Parfitt's assistance with these, and other orders, has been appreciated. There are many others who have willingly supplied information, discussed concepts and helped define classes. In particular I thank Trevor Webb, Robin Palmer, Brian Purdie, Hugh Wilde, Iain Campbell, Geoff Mew, Mike Laffan, Peter McIntosh, Alan Palmer, Jim Pollok, David Lowe, Megan Balks, Bob Allbrook, Malcolm McLeod, Gary Orbell and Peter Singleton. Cyril Childs' editorial help was also much appreciated.
+
+{{< pagebreak >}}
