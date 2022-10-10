@@ -119,7 +119,7 @@ Other soils that have **BOTH**
 1.  a [weathered-B](diagnostics.qmd#sec-diag-bw), [argillic](diagnostics.qmd#sec-diag-argh) or [cutanic horizon](diagnostics.qmd#sec-diag-cuth) 10 cm or more thick with a lower boundary at 30 cm or more from the mineral soil surface, **AND**
 2.  in the B horizon, a subhorizon that has in the matrix ***either***
     (a) hue 7.5YR or redder, or hue 10YR and chroma 6 or more; ***or***
-    (b) hue 10YR or yellower with chroma 4 or 5 or chroma 3 with value 3, or hue 2.5Y or yellower with chroma 6 or more (all colours moist, see @fig-2); and P retention is 30% or more, or the reactive-aluminium test is at least moderate, in the uppermost subhorizon (10 cm or more thick) of the B horizon, ***or***
+    (b) hue 10YR or yellower with chroma 4 or 5 or chroma 3 with value 3, or hue 2.5Y or yellower with chroma 6 or more (all colours moist, see @fig-two); and P retention is 30% or more, or the reactive-aluminium test is at least moderate, in the uppermost subhorizon (10 cm or more thick) of the B horizon, ***or***
     (c) the texture is sand or loamy sand in the B horizon to its base, or to 60 cm from the mineral soil surface, whichever is less.
 
 ## [**A** - Anthropic Soils](anthropics.qmd#sec-ord-A) {#sec-A}

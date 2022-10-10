@@ -1,6 +1,8 @@
+---
+bibliography: NZSC_reference_list_3e.bib
+---
+
 ## References
 
 ::: {#refs}
 :::
-
-{{< pagebreak >}}

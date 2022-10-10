@@ -1,7 +1,6 @@
 project:
   type: book
-  preview:
-    browser: true
+  output-dir: docs
 
 book:
   title: "New Zealand Soil Classification v3.0"
@@ -36,8 +35,6 @@ book:
     - references.qmd
     - Appendix.qmd
 
-
-
 bibliography: NZSC_reference_list_3e.bib
 
 format:
@@ -47,9 +44,7 @@ format:
       dark: slate
     number-sections: false
     citations-hover: true
-    self-contained: true
-  epub:
-    number-sections: false
+    footnotes-hover: true
 
 editor: visual
 
@@ -63,7 +58,3 @@ knitr:
     echo: false
     fig.show: 'hold'
     results: 'hold'
-
-# leftover from _common.R:
-# example R options set globally
-#options(width = 60)
