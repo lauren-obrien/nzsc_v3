@@ -41,9 +41,9 @@ Allophanic soil material has soil properties dominated by minerals with short-ra
         (i) Sensitive or strongly sensitive sensitivity class (distinctly greasy or smeary feel except in some sandy soils), *and*
         (ii) Very weak or weak unconfined soil strength class (when moist), *and*
         (iii) Non-sticky or slightly sticky stickiness class, *and*
-        (iv) Strong or very strong reactive-aluminium test; \
+        (iv) Strong or very strong reactive-aluminium test;\
              ***OR***
-    (b) P retention of 85% or more; \
+    (b) P retention of 85% or more;\
         **AND**
 2.  Dry bulk density of the fine-earth fraction (where the volume is determined on a field-moist soil) of less than 0.9 Mg/m^3^.
 
@@ -119,7 +119,7 @@ Densipans occur in soils with siliceous parent materials. The strength is due to
 A distinct topsoil [modified from @avery1980] is normally designated an A horizon and has **BOTH** of the following:
 
 1.  Moist colour value and/or chroma is less than that of the horizon below; **AND**
-2.  Thickness is 5 cm or more (including any F, H or O topsoil layer). The distinct topsoil is used to distinguish minimal soil development in the distinction between [Recent Soils](key-to-orders.qmd#sec-ord-R) and [Raw Soils](key-to-orders.qmd#sec-ord-W).
+2.  Thickness is 5 cm or more (including any F, H or O topsoil layer). The distinct topsoil is used to distinguish minimal soil development in the distinction between [Recent Soils](Key-to-Orders.qmd#sec-ord-R) and [Raw Soils](Key-to-Orders.qmd#sec-ord-W).
 
 ## Duripan {#sec-diag-dpan}
 
@@ -129,11 +129,11 @@ A duripan is a subsurface horizon that is cemented by silica or other opaque or 
 2.  It does not react visibly with 10% HCl; **AND**
 3.  The average lateral distance between any fractures is 100 mm or more.
 
-The duripan is recognised in [Pallic Soils](key-to-orders.qmd#sec-ord-P) where the cementing materials are apparently related to the presence of siliceous tephra in the parent material or high exchangeable sodium in the soil.
+The duripan is recognised in [Pallic Soils](Key-to-Orders.qmd#sec-ord-P) where the cementing materials are apparently related to the presence of siliceous tephra in the parent material or high exchangeable sodium in the soil.
 
 ## Fluvial Features {#sec-diag-fluv}
 
-The intention of the term 'fluvial features' is to recognise soils with parent materials that result from transportation, sorting and deposition by water. Fluvial features are used to differentiate [Recent Soils](key-to-orders.qmd#sec-ord-R), [Raw Soils](key-to-orders.qmd#sec-ord-W) and parent material classes of soil series that occur on landforms formed through fluvial processes.
+The intention of the term 'fluvial features' is to recognise soils with parent materials that result from transportation, sorting and deposition by water. Fluvial features are used to differentiate [Recent Soils](Key-to-Orders.qmd#sec-ord-R), [Raw Soils](Key-to-Orders.qmd#sec-ord-W) and parent material classes of soil series that occur on landforms formed through fluvial processes.
 
 Relevant landforms include floodplains, estuarine surfaces, lacustrine surfaces, aggregating fan surfaces, levees, backplains, bars, channels, deltas, floodplain benches, outwash plains and swamps (all defined by @milne1991).
 
@@ -192,7 +192,7 @@ An ironstone-pan is an indurated horizon dominantly composed of iron oxides with
 
 Ironstone-pans commonly occur at a textural discontinuity, in the fluctuating zone of a water-table. It is likely that the iron has been precipitated from iron-rich groundwater moving laterally. In Taranaki [@childs1990], the pans are porous and some appear to have formed as iron-oxide rhizomorphs, which have been progressively infilled and welded together by further precipitations of iron oxide. In these pans the mineralogy is dominated by varying proportions of goethite and ferrihydrite.
 
-Ironstone-pans are not usually associated with eluvial horizons and do not occur in [Podzols](key-to-orders.qmd#sec-ord-Z). They differ from [ortstein-pans](#sec-diag-opan) and [placic horizons](#sec-diag-plac) which are often associated with eluvial horizons in [Podzols](key-to-orders.qmd#sec-ord-Z) or [Brown Soils](key-to-orders.qmd#sec-ord-B), and which have high organic carbon levels. Ironstone pans meet the requirements of the material below a petroferric contact of Soil Taxonomy [@soilsurveystaff1999].
+Ironstone-pans are not usually associated with eluvial horizons and do not occur in [Podzols](Key-to-Orders.qmd#sec-ord-Z). They differ from [ortstein-pans](#sec-diag-opan) and [placic horizons](#sec-diag-plac) which are often associated with eluvial horizons in [Podzols](Key-to-Orders.qmd#sec-ord-Z) or [Brown Soils](Key-to-Orders.qmd#sec-ord-B), and which have high organic carbon levels. Ironstone pans meet the requirements of the material below a petroferric contact of Soil Taxonomy [@soilsurveystaff1999].
 
 The pans are a barrier to plant roots. Heavy machinery is required to break them up for the installation of drains. The permeability of the pans is likely to be slow.
 
@@ -223,7 +223,7 @@ Soils with a mottled profile form have usually been recognised as imperfectly dr
 
 A nodular horizon has more than 15% (by volume) nodules, as segregations of iron or aluminium oxyhydroxides, with some kaolinite, in a layer more than 10 cm thick.
 
-The nodules are common features in [Oxidic Soils](key-to-orders.qmd#sec-ord-X) and some [Granular Soils](key-to-orders.qmd#sec-ord-N) [@wilson1987]. The frequency distribution of nodules is clustered in the \< 2% range and the \> 15% range. Few profiles are known to lie in between.
+The nodules are common features in [Oxidic Soils](Key-to-Orders.qmd#sec-ord-X) and some [Granular Soils](Key-to-Orders.qmd#sec-ord-N) [@wilson1987]. The frequency distribution of nodules is clustered in the \< 2% range and the \> 15% range. Few profiles are known to lie in between.
 
 The nodular horizon limit is intended to exclude thin layers of rewashed nodules on colluvial footslopes, and also infrequent localised concentrations in soils with characteristically few nodules.
 
@@ -241,7 +241,7 @@ Organic soil material has **EITHER**
 3.  More than 35% (by weight) loss on ignition except in materials dominated by allophanic soil material or by limestone; **OR**
 4.  18% or more total carbon.
 
-Organic soil materials that have been accumulated under wet conditions are subdivided into three classes, based on evidence of decomposition [@clayden1989]. These classes are used to distinguish soil groups of [Organic Soils](key-to-orders.qmd#sec-ord-O).
+Organic soil materials that have been accumulated under wet conditions are subdivided into three classes, based on evidence of decomposition [@clayden1989]. These classes are used to distinguish soil groups of [Organic Soils](Key-to-Orders.qmd#sec-ord-O).
 
 *Fibric soil material* (Of horizon) consists mainly of well preserved plant remains that are readily identifiable in terms of botanical origin. The fibre content after rubbing is at least 75% by volume.
 
@@ -416,7 +416,7 @@ Tephric soil material occurs in or below the soil solum. It includes:
 1.  Tephra --- unconsolidated, primary pyroclastic products of volcanic eruptions [@froggatt1990] (including ash, cinders, lapilli, pumice, pumice-like vesicular pyroclastics, blocks, or volcanic bombs), and
 2.  Tephra deposits --- material derived at least partly from tephra that has been reworked and mixed with material from other sources. They include tephric loess, tephric blown sand and volcanogenic alluvium. As a general guide, tephric deposits from andesitic sources have more than 10% volcanic glass in the sand fraction and those from rhyolitic sources have more than 40% volcanic glass in the sand fraction.
 
-Tephric soil material may include soil materials that meet the requirements of [allophanic soil material](#sec-diag-alloph) or [vitric soil material](#sec-diag-vitr). It is used to distinguish soil groups of the [Raw Soils](key-to-orders.qmd#sec-ord-W) and [Recent Soils](key-to-orders.qmd#sec-ord-R), and parent material classes at soil series level.
+Tephric soil material may include soil materials that meet the requirements of [allophanic soil material](#sec-diag-alloph) or [vitric soil material](#sec-diag-vitr). It is used to distinguish soil groups of the [Raw Soils](Key-to-Orders.qmd#sec-ord-W) and [Recent Soils](Key-to-Orders.qmd#sec-ord-R), and parent material classes at soil series level.
 
 ## Vitric Soil Material {#sec-diag-vitr}
 
@@ -431,5 +431,3 @@ A weathered-B horizon shows evidence of alteration and is normally designated Bw
 3.  Evidence of either partial or complete decalcification, i.e. less CaCO~3~ than the underlying horizon which may contain redeposited carbonates.
 
 A weathered-B horizon may also meet the requirements of a [redox-mottled horizon](#sec-diag-roxh), [argillic horizon](#sec-diag-argh), [cutanic horizon](#sec-diag-cuth), or [brittle-B horizon](#sec-diag-britb).
-
-{{< pagebreak >}}
