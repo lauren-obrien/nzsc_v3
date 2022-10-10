@@ -1,0 +1,183 @@
+# Anthropic Soils {#sec-ord-A}
+
+## Concept of the Order {#sec-con-A}
+
+Anthropic Soils are soils that have been made by the direct action of people, including truncation of natural soils by earth-moving equipment, drastic mixing of natural soils so that their original character is lost, or by deposition of thick layers of organic or inorganic material. Anthropic Soils occur in land surfaces that are made by people. Their classification reflects the way in which they were made and the kinds of materials used.
+
+Note that soils that have been drastically disturbed but have been restored to the extent that they will meet the requirements of orders other than [Recent Soils](key-to-orders.qmd#sec-R) or [Raw Soils](key-to-orders.qmd#sec-W), will not be assigned to Anthropic Soils. For this reason Anthropic soils are placed late in the [Key to Orders](#sec-key) but before Recent Soils and Raw Soils.
+
+## Correlation {#sec-cor-A}
+
+Anthropic Soils were not formally part of the NZ Genetic Soil Classification although anthropic soils were described in some soil survey reports. The soils either correlate with Entisols or are unclassified in Soil Taxonomy.
+
+## Occurrence {#sec-occ-A}
+
+Anthropic Soils are most extensive in urban areas and areas that have been mined.
+
+## Accessory Properties of the Order {#sec-acc-A}
+
+1.  Soil characteristics and the relationships between soils and landforms do not have the orderliness of natural soils.
+2.  Drainage has often been changed significantly from the original state.
+3.  Soil properties depend upon both the nature of the manufactured or natural materials and the nature of the soil manipulation.
+4.  Land surfaces are artificial.
+
+## Summary of Anthropic Soils Hierarchy {#sec-sum-A}
+
+```{r}
+library(flextable)
+
+table_A <- data.frame(
+  'Code' = c(rep('AT', 2),
+             rep('AR', 2),
+             'AM',
+             rep('AF', 4)),
+  'Group' = c(rep('Truncated', 2),
+              rep('Refuse', 2),
+              'Mixed',
+              rep('Fill', 4)),
+  'Subgroup' = c('Rocky', 'Typic',
+                 'Buried Typic',
+                 '-',
+                 'Compacted', 'Wet', 'Stony-Tailings', 'Artifact', 'Earthy')
+) 
+
+ft_A <- flextable(table_A)
+ft_A <- bold(ft_A, part = 'head')
+ft_A <- merge_v(ft_A, 1)
+ft_A <- merge_v(ft_A, 2)
+ft_A <- valign(ft_A, j = c(1,2), valign = 'top')
+ft_A <- bold(ft_A, j = 1)
+ft_A <- set_table_properties(ft_A, layout = "autofit", width = 1)
+ft_A
+```
+
+## Key to Groups of Anthropic Soils {#sec-grp-A}
+
+#### **AT** {#sec-key-AT}
+
+Anthropic Soils in which natural *in-situ* materials occur at or within 30 cm of the soil surface, which result from truncation of the solum of the original soil by the action of people.
+
+::: {style="text-align: right"}
+[**TRUNCATED ANTHROPIC SOILS**](#sec-AT)
+:::
+
+#### **AR** {#sec-key-AR}
+
+Other Anthropic Soils that have either
+
+1.  a layer comprising natural organic waste, or manufactured organic material, that is at least 30 cm thick and has an upper boundary at the land surface or buried within 90 cm of the land surface, *or*
+2.  has a methane content sufficient to be detected by odour, or if trapped, by ignition.
+
+::: {style="text-align: right"}
+[**REFUSE ANTHROPIC SOILS**](#sec-AR)
+:::
+
+#### **AM** {#sec-key-AM}
+
+Other Anthropic Soils in which the original soil horizons have been destroyed by deep ripping, deep subsoil lifting, or some similar practice.
+
+::: {style="text-align: right"}
+[**MIXED ANTHROPIC SOILS**](#sec-AM)
+:::
+
+#### **AF** {#sec-key-AF}
+
+Other Anthropic Soils.
+
+::: {style="text-align: right"}
+[**FILL ANTHROPIC SOILS**](#sec-AF)
+:::
+
+## Key to Subgroups of Anthropic Soils {#sec-sub-A}
+
+### **AT** - TRUNCATED ANTHROPIC SOILS {#sec-AT}
+
+Truncated Anthropic Soils result from cutting away any existing soil, by mechanical equipment, leaving material that would be recognised as a BC, C or R horizon. The scalped surface maybe overlain by up to 29 cm of soil, deposited for landscaping purposes.
+
+#### **ATX** {#sec-key-ATX}
+
+Soils with a lithic contact within 60 cm of the soil surface.
+
+::: {style="text-align: right"}
+**Rocky Truncated Anthropic Soils**
+:::
+
+#### **ATT** {#sec-key-ATT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Truncated Anthropic Soils**
+:::
+
+### **AR** - REFUSE ANTHROPIC SOILS {#sec-AR}
+
+Refuse Anthropic Soils occur in sites where household, land management, urban or industrial waste has been dumped and which have significant organic matter, comprising vegetation, animal or manufactured material such as plastics, paper or timber.
+
+#### **ARB** {#sec-key-ARB}
+
+Soils in which organic refuse is buried beneath an overburden of soil or rock material greater than 30 cm thick.
+
+::: {style="text-align: right"}
+**Buried Refuse Anthropic Soils**
+:::
+
+#### **ART** {#sec-key-ART}
+
+Other Soils.
+
+::: {style="text-align: right"}
+**Typic Refuse Anthropic Soils**
+:::
+
+### **AM** - MIXED ANTHROPIC SOILS {#sec-AM}
+
+Mixed Anthropic Soils occur in sites where the original soil has been drastically disturbed by mechanical procedures such as deep ripping.
+
+No subgroups are defined, but the original soil if known may be appended to the name in parentheses, for example Mixed Anthropic Soils (Perch-Gley Pallic Soils).
+
+### **AF** - FILL ANTHROPIC SOILS {#sec-AF}
+
+Fill Anthropic Soils result from the deposition of dominantly inorganic material including soil, rock debris, dredged sediments or manufactured material such as bricks, concrete, or metals.
+
+#### **AFC** {#sec-key-AFC}
+
+Soils that have been compacted and have a bulk density of 1.5 Mg/m^3^ or more.
+
+::: {style="text-align: right"}
+**Compacted Fill Anthropic Soils**
+:::
+
+#### **AFW** {#sec-key-FWT}
+
+Other soils that are wet within 60 cm of the mineral soil surface at some time of the year.
+
+::: {style="text-align: right"}
+**Wet Fill Anthropic Soils**
+:::
+
+#### **AFST** {#sec-key-AFST}
+
+Other soils that have a gravel or bouldery layer more than 30 cm thick in which there is insufficient fine-earth to fill more than half the interstices between the gravel or boulder clasts, with an upper boundary within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Stony-tailings Fill Anthropic Soils**
+:::
+
+#### **AFA** {#sec-key-AFA}
+
+Other soils showing evidence of pre-European additions of material.
+
+::: {style="text-align: right"}
+**Artifact Fill Anthropic Soils**
+:::
+
+#### **AFE** {#sec-key-AFE}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Earthy Fill Anthropic Soils**
+:::
+
+{{< pagebreak >}}
