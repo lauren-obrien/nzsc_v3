@@ -1,0 +1,68 @@
+project:
+  type: book
+  preview:
+    browser: true
+
+book:
+  title: "New Zealand Soil Classification v3.0"
+  author: "Alan. E. Hewitt"
+  date: last-modified
+  
+  search: false
+  repo-url: https://github.com/lauren-obrien/nzsc_v3
+  chapters:
+    - index.qmd
+    - Foreword.qmd
+    - Introduction.qmd
+    - Diagnostics.qmd
+    - Key-to-Orders.qmd
+    - Allophanics.qmd
+    - Anthropics.qmd
+    - Browns.qmd
+    - Gleys.qmd
+    - Granulars.qmd
+    - Melanics.qmd
+    - Organics.qmd
+    - Oxidics.qmd
+    - Pallics.qmd
+    - Podzols.qmd
+    - Pumices.qmd
+    - Raws.qmd
+    - Recents.qmds
+    - Semiarids.qmd
+    - Ultics.qmd
+    - Acknowledgements.qmd
+    - Appendix.qmd
+    - references.qmd
+
+
+bibliography: NZSC_reference_list_3e.bib
+#csl: geoderma.csl
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: slate
+    number-sections: false
+    citations-hover: true
+    date-modified: last-modified
+  epub:
+    number-sections: false
+
+editor: visual
+
+# global knitr options
+knitr:
+  opts_chunk:
+    comment: "#>"
+    collapse: true
+    out.width: '85%'
+    fig.align: 'center'
+    echo: false
+    fig.show: 'hold'
+    results: 'hold'
+
+# leftover from _common.R:
+# example R options set globally
+#options(width = 60)
