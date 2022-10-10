@@ -1,0 +1,472 @@
+# Gley Soils {#sec-ord-G}
+
+## Concept of the Order {#sec-con-G}
+
+Gley Soils are poorly-drained and very poorly-drained soils. In their undrained state, saturation occurs during prolonged periods, oxygen is limited and reducing conditions occur (typically affecting iron, manganese, nitrates, and sometimes sulphates). Greyish colours are dominant throughout the solum or to a depth of 90 cm or more.
+
+## Correlation {#sec-cor-G}
+
+The order comprises gley soils and gleyed recent soils of the NZ Genetic Soil Classification. The soils correlate predominantly with the Aquents, Aquepts and Aquox (Oxidic Gley Soils) of Soil Taxonomy.
+
+## Occurrence {#sec-occ-G}
+
+Gley Soils occur throughout New Zealand, usually in low parts of the landscape where there are high groundwater-tables, or in places where there are seepages. Large areas of Gley Soils have been artificially drained to form productive agricultural land.
+
+## Accessory Properties of the Order {#sec-acc-G}
+
+1.  *Segregation of iron and manganese oxides.* Particles in reduced parts of the soil are not coated by secondary oxides. [Redox segregations](diagnostics.qmd#sec-diag-rsegs) of iron and manganese oxides, however, are usually present elsewhere in the soil and may occupy large volumes.
+2.  *Commonly formed in alluvial or colluvial parent materials.* Soils most frequently occur in relatively low parts of the landscape, in hollows or associated with flushes.
+3.  *Wide range of clay minerals.* The clay mineralogy commonly reflects the mineralogy of the ungleyed material from which the soils are derived. Gley Soils cover a wide range of mineralogy classes with Mixed, Illitic, and Smectitic being the most common.
+4.  *Poorly or very poorly drained.* Topsoils have relatively high levels of organic matter and some are peaty. Subsurface horizons to depth are dominantly grey or bluish grey in colour with strong brown to dark brown redox segregations.
+5.  *High groundwater-tables.* Most are affected by high groundwater-tables, at least throughout winter months. Soils with slowly permeable layers may also be subject to perching.
+6.  *Shallow potential rooting depth.* Potential rooting depth is limited by poor aeration. Even after drainage, root extension may be limited in some horizons.
+7.  *Relatively high bulk densities.* Bulk densities are likely to be higher than in well drained soils in similar soil materials.
+8.  *Limited trafficability.* Trafficability is limited in most soils when wet and pugging damage by stock is likely.
+9.  *Response to drainage.* Crops, not adapted to wetness, respond well to drainage.
+10. *Minimal erosion.* Flooding or ponding of water is likely on low-lying sites, especially on floodplains. Deposition of fresh sediment is possible in these sites.
+11. *Nitrogen requirement.* Nitrogen requirements are likely to be higher than for associated well drained soils.
+
+## Summary of Gley Soils Hierarchy {#sec-sum-G}
+
+```{r}
+library(flextable)
+
+table_G <- data.frame(
+  'Code' = c(
+    rep('GU', 5),
+    rep('GT', 3),
+    rep('GS', 5),
+    rep('GX', 2),
+    rep('GR', 4),
+    rep('GA', 6),
+    rep('GO', 8)),
+  'Group' = c(
+    rep('Sulphuric', 5),
+    rep('Tephric', 3),
+    rep('Sandy', 5),
+    rep('Oxidic', 2),
+    rep('Recent', 4),
+    rep('Acid', 6),
+    rep('Orthic', 8)),
+  'Subgroup' = c('Fluid-saline', 'Fluid', 'Peaty', 'Sandy-saline', 'Typic',
+                 'Peaty', 'Acidic', 'Typic',
+                 'Peaty', 'Saline', 'Concretionary', 'Acidic', 'Typic',
+                 'Nodular', 'Typic',
+                 'Peaty', 'Fluid', 'Saline', 'Calcareous',
+                 'Peaty', 'Granular', 'Ultic', 'Placic-humose', 'Humose', 'Typic',
+                 'Peaty', 'Saline', 'Calcareous', 'Ironstone', 'Melanic',
+                   'Argillic', 'Acidic', 'Typic'),
+  'Example_Series' = c('pt. Takahiwai', 'pt. Takahiwai', 'Te Kowiwi', 'Muriwai', '-',
+                       '-', '-', '-',
+                       '-', '-', 'Carnarvon', 'Berwick', 'Pukepuke',
+                       'pt. Kapiro', 'pt. Waipapa',
+                       'Kakawa', '-', 'Pauatahanui', 'Ahuriri',
+                       '-', 'Te Hihi', 'pt. Waikare', 'pt. Flagstaff', 
+                       'pt. Flagstaff', 'Dacre',
+                       'Waimairi', '-', 'Wainui', 'Okato', 'Netherton', 
+                         'pt. Waterton', 'Bidois', 'Invermay')
+)
+
+ft_G <- flextable(table_G)
+ft_G <- bold(ft_G, part = 'head')
+ft_G <- merge_v(ft_G, 1)
+ft_G <- merge_v(ft_G, 2)
+ft_G <- valign(ft_G, j = c(1,2), valign = 'top')
+ft_G <- bold(ft_G, j = 1)
+ft_G <- set_table_properties(ft_G, layout = "autofit", width = 1)
+ft_G <- set_header_labels(ft_G, 
+                          'Example_Series' = 'Example Series')
+ft_G
+```
+
+## Key to Groups of Gley Soils {#sec-grp-G}
+
+#### **GU** {#sec-key-GU}
+
+Gley Soils that within 60 cm of the mineral soil surface have *both*
+
+1.  a horizon with pH less than 4.8, and
+2.  either straw-yellow jarosite mottles or moderately fluid or very fluid fluidity class.
+
+::: {style="text-align: right"}
+[**SULPHURIC GLEY SOILS**](#sec-GU)
+:::
+
+#### **GT** {#sec-key-GT}
+
+Other Gley Soils in [tephric soil material](diagnostics.qmd#sec-diag-teph) from the mineral soil surface to 30 cm depth or more.
+
+::: {style="text-align: right"}
+[**TEPHRIC GLEY SOILS**](#sec-GT)
+:::
+
+#### **GS** {#sec-key-GS}
+
+Other Gley Soils that have a sand or loamy sand texture, and less than 35% (by volume) gravel, in all horizons from the base of the A horizon to 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+[**SANDY GLEY SOILS**](#sec-GS)
+:::
+
+#### **GX** {#sec-key-GX}
+
+Other Gley Soils that have an [oxidic horizon](diagnostics.qmd#sec-diag-oxh) more than 30 cm thick with an upper boundary between 20 and 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+[**OXIDIC GLEY SOILS**](#sec-GX)
+:::
+
+#### **GR** {#sec-key-GR}
+
+Other Gley Soils that have
+
+1.  *either* of the following
+    (a) fine sedimentary stratification at 60 cm or less, *or*
+    (b) a buried A horizon with its upper surface deeper than 30 cm but within 120 cm of the mineral soil surface, or some other indication of an irregular carbon profile such as sedimentary plant leaf material, *and*
+2.  have none of the following:
+    (a) a buried B horizon with an upper surface at 60 cm or less from the mineral soil surface, *nor*
+    (b) a B or BC horizon with base deeper than 30 cm from the mineral soil surface, *nor*
+    (c) a thin [iron pan](diagnostics.qmd#sec-diag-ipan) , *nor*
+    (d) a horizon with more than 2% concretions or nodules coarser than sand size within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+[**RECENT GLEY SOILS**](#sec-GR)
+:::
+
+#### **GA** {#sec-key-GA}
+
+Other Gley Soils that have pH of 4.8 or less in some part between 20 and 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+[**ACID GLEY SOILS**](#sec-GA)
+:::
+
+#### **GO** {#sec-key-GO}
+
+Other Gley Soils.
+
+::: {style="text-align: right"}
+[**ORTHIC GLEY SOILS**](#sec-GO)
+:::
+
+## Key to Subgroups of Gley Soils {#sec-sub-G}
+
+### **GU** - SULPHURIC GLEY SOILS {#sec-GU}
+
+Sulphuric Gley Soils occur in marine estuarine sites in which sufficient oxidation of ferrous sulphides has occurred to produce either sulphuric acid, or the mineral jarosite, or both.
+
+#### **GUFQ** {#sec-key-GUFQ}
+
+Sulphuric Gley Soils that within 60 cm of the mineral soil surface have *both*
+
+1.  moderately fluid or very fluid fluidity class, and
+2.  electrical conductivity of 0.8 mS/cm or more.
+
+::: {style="text-align: right"}
+**Fluid-saline Sulphuric Gley Soils**
+:::
+
+#### **GUF** {#sec-key-GUF}
+
+Other soils that within 60 cm of the mineral soil surface have moderately fluid or very fluid fluidity class.
+
+::: {style="text-align: right"}
+**Fluid Sulphuric Gley Soils**
+:::
+
+#### **GUO** {#sec-key-GUO}
+
+Other soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) either at the surface or buried with its upper surface within 60 cm of the soil surface.
+
+::: {style="text-align: right"}
+**Peaty Sulphuric Gley Soils**
+:::
+
+#### **GUSQ** {#sec-key-GUSQ}
+
+Other soils that are sandy by weighted average to 90 cm from the mineral soil surface and have electrical conductivity of 0.8 mS/cm or more within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Sandy-saline Sulphuric Gley Soils**
+:::
+
+#### **GUT** {#sec-key-GUT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Sulphuric Gley Soils**
+:::
+
+### **GT** - TEPHRIC GLEY SOILS {#sec-GT}
+
+Tephric Gley Soils occur in unconsolidated sediment of volcanic origin including ash, cinders, lapilli, pumice and other pyroclastics.
+
+#### **GTO** {#sec-key-GTO}
+
+Tephric Gley Soils that have a [peaty topsoil](diagnostics.qmd#diag-pts) either at the surface or buried with its upper surface within 60 cm of the soil surface.
+
+::: {style="text-align: right"}
+**Peaty Tephric Gley Soils**
+:::
+
+#### **GTA** {#sec-key-GTA}
+
+Other soils that have pH of less than 5.5 in some part from the base of the A horizon to 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Acidic Tephric Gley Soils**
+:::
+
+#### **GTT** {#sec-key-GTT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Tephric Gley Soils**
+:::
+
+### **GS** - SANDY GLEY SOILS {#sec-GS}
+
+Sandy Gley Soils occur in sand deposits which are usually aeolian, but may also be of alluvial origin. Subsurface horizons are sand or loamy sand.
+
+#### **GSO** {#sec-key-GSO}
+
+Sandy Gley Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) either at the surface or buried with its upper surface within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Peaty Sandy Gley Soils**
+:::
+
+#### **GSQ** {#sec-key-GSQ}
+
+Other soils that within 60 cm of the mineral soil surface have electrical conductivity of 0.8 mS/cm or more
+
+::: {style="text-align: right"}
+**Saline Sandy Gley Soils**
+:::
+
+#### **GSC** {#sec-key-GSC}
+
+Other soils that have more than 2% concretions in some horizon at a depth of 60 cm or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Concretionary Sandy Gley Soils**
+:::
+
+#### **GSA** {#sec-key-GSA}
+
+Other soils that have pH of less than 5.5 in some part from the base of the A horizon to 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Acidic Sandy Gley Soils**
+:::
+
+#### **GST** {#sec-key-GST}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Sandy Gley Soils**
+:::
+
+### **GX** - OXIDIC GLEY SOILS {#sec-GX}
+
+Oxidic Gley Soils have variable charge properties and contain low-activity clays. The mineralogy is dominated by kaolin group clay minerals. Iron oxides are less common than in the [Oxidic Soils](key-to-orders.qmd#sec-X).
+
+#### **GXN** {#sec-key-GXN}
+
+Oxidic Gley Soils that have a [nodular horizon](diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Nodular Oxidic Gley Soils**
+:::
+
+#### **GXT** {#sec-key-GXT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Oxidic Gley Soils**
+:::
+
+### **GR** - RECENT GLEY SOILS {#sec-GR}
+
+Recent Gley Soils occur on young land surfaces, usually in fluvial or estuarine sediments. In many sites there is a significant flood risk.
+
+#### **GRO** {#sec-key-GRO}
+
+Recent Gley Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) either at the surface or buried with its upper surface within 60 cm of the soil surface.
+
+::: {style="text-align: right"}
+**Peaty Recent Gley Soils**
+:::
+
+#### **GRF** {#sec-key-GRF}
+
+Other soils that within 60 cm of the mineral soil surface have moderately fluid or very fluid fluidity class.
+
+::: {style="text-align: right"}
+**Fluid Recent Gley Soils**
+:::
+
+#### **GRQ** {#sec-key-GRQ}
+
+Other soils that within 60 cm of the mineral soil surface have electrical conductivity of 0.8 mS/cm or more.
+
+::: {style="text-align: right"}
+**Saline Recent Gley Soils**
+:::
+
+#### **GRC** {#sec-key-GRC}
+
+Other soils that have a [calcareous horizon](diagnostics.qmd#sec-diag-calch) or a shelly layer within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Calcareous Recent Gley Soils**
+:::
+
+#### **GRA** {#sec-key-GRA}
+
+Other soils that have pH less than 5.5 in some part from the base of the A horizon to 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Acidic Recent Gley Soils**
+:::
+
+#### **GRT** {#sec-key-GRT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Recent Gley Soils**
+:::
+
+### **GA** - ACID GLEY SOILS {#sec-GA}
+
+Acid Gley Soils occur on relatively stable land surfaces, and have been subject to a fluctuating groundwater-table, or a deep layer of perched water. Plants grown are susceptible to aluminium toxicity.
+
+#### **GAO** {#sec-key-GAO}
+
+Acid Gley Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) at the surface or buried within 60 cm of the surface.
+
+::: {style="text-align: right"}
+**Peaty Acid Gley Soils**
+:::
+
+#### **GAG** {#sec-key-GAG}
+
+Other soils that have a clayey, moderately or strongly pedal [cutanic](diagnostics.qmd#sec-diag-cuth) or [argillic horizon](diagnostics.qmd#sec-diag-argh) and polyhedral peds 20 mm or less in the major part of the B horizon to 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Granular Acid Gley Soils**
+:::
+
+#### **GAY** {#sec-key-GAY}
+
+Other soils that have a B horizon which has in the major part, *both*
+
+1.  10% or more clay or humus coatings on ped faces, *and*
+2.  less silt than clay.
+
+::: {style="text-align: right"}
+**Ultic Acid Gley Soils**
+:::
+
+#### **GAPH** {#sec-key-GAPH}
+
+Other soils that have both a [placic horizon](diagnostics.qmd#sec-diag-plac) and a B horizon with 10% or more dark-coloured coats on ped faces, in pores or on gravel, with moist colour value 4 or less or colour value 5 and chroma 3.
+
+::: {style="text-align: right"}
+**Placic-humose Acid Gley Soils**
+:::
+
+#### **GAH** {#sec-key-GAH}
+
+Other soils that have a B horizon with 10% or more dark-coloured coats on ped faces, in pores or on gravel, with moist colour value 4 or less or colour value 5 and chroma 3.
+
+::: {style="text-align: right"}
+**Humose Acid Gley Soils**
+:::
+
+#### **GAT** {#sec-key-GAT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Acid Gley Soils**
+:::
+
+### **GO** - ORTHIC GLEY SOILS {#sec-GO}
+
+Orthic Gley Soils occur on relatively stable land surfaces in sites affected by groundwater. Sediment deposition is unlikely if flooding occurs. They are neither strongly acid, sandy nor sulphuric and have no [oxidic horizon](diagnostics.qmd#sec-diag-oxh).
+
+#### **GOO** {#sec-key-GOO}
+
+Orthic Gley Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) either at the surface or buried with its upper surface within 60 cm of the soil surface.
+
+::: {style="text-align: right"}
+**Peaty Orthic Gley Soils**
+:::
+
+#### **GOQ** {#sec-key-GOQ}
+
+Other soils that within 60 cm of the mineral soil surface have electrical conductivity of 0.8 mS/cm or more.
+
+::: {style="text-align: right"}
+**Saline Orthic Gley Soils**
+:::
+
+#### **GOC** {#sec-key-GOC}
+
+Other soils that have a [calcareous horizon](diagnostics.qmd#sec-diag-calch) at 60 cm or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Calcareous Orthic Gley Soils**
+:::
+
+#### **GOI** {#sec-key-GOI}
+
+Other soils that have an ironstone layer at 90 cm depth or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Ironstone Orthic Gley Soils**
+:::
+
+#### **GOE** {#sec-key-GOE}
+
+Other soils that have a B horizon, in which the major part to 60 cm from the mineral soil surface or to its base (whichever is less)
+
+1.  has moderate or strong pedality, *and*
+2.  is sticky or very sticky, *and*
+3.  has pH of 5.9 or more, or coefficient of linear expandibility of 0.09 or more.
+
+::: {style="text-align: right"}
+**Melanic Orthic Gley Soils**
+:::
+
+#### **GOJ** {#sec-key-GOJ}
+
+Other soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh).
+
+::: {style="text-align: right"}
+**Argillic Orthic Gley Soils**
+:::
+
+#### **GOA** {#sec-key-GOA}
+
+Other soils that have pH of less than 5.5 in some part from the base of the A horizon to 60 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Acidic Orthic Gley Soils**
+:::
+
+#### **GOT** {#sec-key-GOT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Orthic Gley Soils**
+:::
+
+{{< pagebreak >}}
