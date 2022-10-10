@@ -1,6 +1,6 @@
 Welcome!
 
-This is a [Quarto](https://quarto.org) version of the New Zealand Soil Classification (NZSC), 3^rd^ edition.
+This is a [Quarto](https://quarto.org) version of the New Zealand Soil Classification (NZSC), 3rd edition.
 
 Introductory information about the NZSC is available at [The New Zealand Soils Portal](https://soils.landcareresearch.co.nz/topics/soil-classification/nzsc/).
 
