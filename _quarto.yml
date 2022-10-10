@@ -48,6 +48,7 @@ format:
       dark: slate
     number-sections: false
     citations-hover: true
+    self-contained: true
   epub:
     number-sections: false
 
