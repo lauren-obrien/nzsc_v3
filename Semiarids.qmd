@@ -1,0 +1,249 @@
+# Semiarid Soils {#sec-ord-S}
+
+## Concept of the Order {#sec-con-S}
+
+Semiarid Soils are high base status soils in which a soil water deficit prevails over most of the growing season. Wetting fronts in the natural state fail to penetrate deeper than the base of the solum, with consequent accumulation of pedogenic lime and soluble salts.
+
+## Correlation {#sec-cor-S}
+
+The order comprises brown-grey earths, associated steepland soils and intergrades between brown-grey earths and yellow-grey earths and recent soils of the NZ Genetic Soil Classification. The order corresponds with the Aridisols of Soil Taxonomy.
+
+## Occurrence {#sec-occ-S}
+
+Semiarid Soils occur in the inland basins of Otago and southern Canterbury, where precipitation is less than about 500 mm per year.
+
+## Accessory Properties of the Order {#sec-acc-S}
+
+1.  *Low secondary oxides.* Secondary iron and aluminium oxide levels are very low. P retention levels are also very low (usually less than 15%).
+2.  *High base status.* Base saturation values in subsoils are high and rise to 100% at the base of the solum.
+3.  *Parent materials.* The soils occur in materials from non-calcareous quartzo-feldspathic schist and indurated sandstone (greywacke).
+4.  *Illitic clay mineralogy.* Mica/illite clay minerals predominate with trace primary chlorite and kaolinite. Semiarid Soils almost always have an Illitic mineralogy class unless they have a clay content of less than 10% and fall into the Mixed class.
+5.  *Permeability.* Saturated hydraulic conductivity is slow in soils with [argillic](diagnostics.qmd#sec-diag-argh) or [cutanic horizons](diagnostics.qmd#sec-diag-cuth), and in some other silty or fine sandy soils. Infiltration may be reduced by traffic or treading when soils are saturated by irrigation water.
+6.  *Drainage.* No poorly or very poorly drained soils are included.
+7.  *Available water capacity.* Available water capacity is limited in most subsoils.
+8.  *Low biological activity.* In the natural state, biological activity is limited by droughtiness.
+9.  *High slaking and dispersion potential.* Soil materials are strongly dispersive and will readily slake.
+10. *Erosive.* The soils are susceptible to wind and fluvial erosion.
+11. *Weakly buffered.* The soils are weakly buffered because of low CEC and anion adsorption capacity. They are consequently very sensitive to management, showing rapid changes in response to fertilisation, irrigation and cultivation.
+12. *Soluble salts.* Soluble salts are present in many soils and land management must consider the risk of salinisation.
+13. *High sodium.* Many soils, particularly those with [argillic horizons](diagnostics.qmd#sec-diag-argh) have high percentage sodium saturation of the exchange complex.
+14. *Climate.* Precipitation ranges from about 350 to 500 mm per year, with zero water surplus and a spring soil moisture deficit.
+
+## Summary of Semiarid Soils Hierarchy {#sec-sum-S}
+
+```{r}
+library(flextable)
+
+table_S <- data.frame(
+  'Code' = c(rep('SA', 5),
+             rep('SZ', 2),
+             rep('SJ', 5),
+             rep('SI', 4)),
+  'Group' = c(rep('Aged-argillic', 5),
+              rep('Solonetzic', 2),
+              rep('Argillic', 5),
+              rep('Immature',4)),
+  'Subgroup' = c('Mottled', 'Weathered', 'Alkaline', 'Thick', 'Typic',
+                 'Saline', 'Typic',
+                 'Mottled', 'Saline', 'Alkaline', 'Laminar', 'Typic', 
+                 'Mottled', 'Saline', 'Alkaline', 'Typic'),
+  'Example_Series' = c('-', 'Clyde', 'pt. Drybread', 'Clyde', 'Lowburn',
+                       'pt. Chapman', 'Manorburn',
+                       'pt. Waenga', 'pt. Ranfurly', 'Blackmans', 'Manuherikia',
+                         'pt. Ranfurly',
+                       'pt. Linnburn', 'pt. Frazer', 'pt. Linnburn', '-')
+) 
+
+ft_S <- flextable(table_S)
+ft_S <- bold(ft_S, part = 'head')
+ft_S <- merge_v(ft_S, 1)
+ft_S <- merge_v(ft_S, 2)
+ft_S <- valign(ft_S, j = c(1,2), valign = 'top')
+ft_S <- bold(ft_S, j = 1)
+ft_S <- set_table_properties(ft_S, layout = "autofit", width = 1)
+ft_S <- set_header_labels(ft_S, 
+                          'Example_Series' = 'Example Series')
+ft_S
+```
+
+## Key to Groups of Semiarid Soils {#sec-grp-S}
+
+#### **SA** {#sec-key-SA}
+
+Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) in which the matrix has, in part, 7.5YR or redder hues or 10YR hue with chroma 6 or more.
+
+::: {style="text-align: right"}
+[**AGED-ARGILLIC SEMIARID SOILS**](#sec-SA)
+:::
+
+#### **SZ** {#sec-key-SZ}
+
+Other Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) that has prismatic or blocky peds with more than 10% coatings of colour value 4 or less, and pH of 8.6 or more in some part.
+
+::: {style="text-align: right"}
+[**SOLONETZIC SEMIARID SOILS**](#sec-SZ)
+:::
+
+#### **SJ** {#sec-key-SJ}
+
+Other Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh), or a [cutanic horizon](diagnostics.qmd#sec-diag-cuth) that meets the requirements of a slowly permeable layer.
+
+::: {style="text-align: right"}
+[**ARGILLIC SEMIARID SOILS**](#sec-SJ)
+:::
+
+#### **SI** {#sec-key-SI}
+
+Other Semiarid Soils.
+
+::: {style="text-align: right"}
+[**IMMATURE SEMIARID SOILS**](#sec-SI)
+:::
+
+## Key to Subgroups of Semiarid Soils {#sec-sub-S}
+
+### **SA** - AGED-ARGILLIC SEMIARID SOILS {#sec-SA}
+
+Aged-Argillic Semiarid Soils occur mainly on fans, terraces or hill slopes that have been relatively stable since mid to early Pleistocene. The [argillic horizons](diagnostics.qmd#sec-diag-argh) are redder in colour than those in younger soils, and are usually [slowly permeable](diagnostics.qmd#sec-diag-slowp).
+
+#### **SAM** {#sec-key-SAM}
+
+Aged-Argillic Semiarid Soils that have a [mottled soil profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Aged-argillic Semiarid Soils**
+:::
+
+#### **SAW** {#sec-key-SAW}
+
+Other soils in which the majority of the gravel is weathered to the extent that clasts may easily be broken by hammer or spade.
+
+::: {style="text-align: right"}
+**Weathered Aged-argillic Semiarid Soils**
+:::
+
+#### **SAK** {#sec-key-SAK}
+
+Other soils that have pH of 8.6 or more in some part within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Alkaline Aged-argillic Semiarid Soils**
+:::
+
+#### **SAH** {#sec-key-SAH}
+
+Other soils with an [argillic horizon](diagnostics.qmd#sec-diag-argh) 30 cm or more thick.
+
+::: {style="text-align: right"}
+**Thick Aged-argillic Semiarid Soils**
+:::
+
+#### **SAT** {#sec-key-SAT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Aged-argillic Semiarid Soils**
+:::
+
+### **SZ** - SOLONETZIC SEMIARID SOILS {#sec-SZ}
+
+Solonetzic Semiarid Soils have a higher proportion of exchangeable sodium than other Semiarid Soils. This tends to promote the dispersion of clay and organic matter and very slow permeability through the clay enriched B horizons.
+
+#### **SZQ** {#sec-key-SZQ}
+
+Solonetzic Semiarid Soils that have electrical conductivity of 0.8 mS/cm or more within 60 cm of the mineral soil surface at some time of the year.
+
+::: {style="text-align: right"}
+**Saline Solonetzic Semiarid Soils**
+:::
+
+#### **SZT** {#sec-key-SZT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Solonetzic Semiarid Soils**
+:::
+
+### **SJ** - ARGILLIC SEMIARID SOILS {#sec-SJ}
+
+Argillic Semiarid Soils occur on land surfaces of early Holocene or late Pleistocene age. The [argillic horizon](diagnostics.qmd#sec-diag-argh) is brown, dark brown or olive brown in colour and usually slowly permeable.
+
+#### **SJM** {#sec-key-SJM}
+
+Argillic Semiarid Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Argillic Semiarid Soils**
+:::
+
+#### **SJQ** {#sec-key-SJQ}
+
+Other soils that have electrical conductivity of 0.8 mS/cm or more within 60 cm of the mineral soil surface at some time of the year.
+
+::: {style="text-align: right"}
+**Saline Argillic Semiarid Soils**
+:::
+
+#### **SJK** {#sec-key-SJK}
+
+Other soils that have pH of 8.6 or more in some part within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Alkaline Argillic Semiarid Soils**
+:::
+
+#### **SJL** {#sec-key-SJL}
+
+Other soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) that is predominantly in the form of lamellae.
+
+::: {style="text-align: right"}
+**Laminar Argillic Semiarid Soils**
+:::
+
+#### **SJT** {#sec-key-SJT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Argillic Semiarid Soils**
+:::
+
+### **SI** - IMMATURE SEMIARID SOILS {#sec-SI}
+
+Immature Semiarid Soils occur on Holocene land surfaces and do not have argillic horizons but usually have accumulations of calcium carbonate.
+
+#### **SIM** {#sec-key-SIM}
+
+Immature Semiarid Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Immature Semiarid Soils**
+:::
+
+#### **SIQ** {#sec-key-SIQ}
+
+Soils that have a horizon with electrical conductivity of 0.8 mS/cm or more within 60 cm of the mineral soil surface at some time of the year.
+
+::: {style="text-align: right"}
+**Saline Immature Semiarid Soils**
+:::
+
+#### **SIK** {#sec-key-SIK}
+
+Other soils that have pH of 8.6 or more in some part within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Alkaline Immature Semiarid Soils**
+:::
+
+#### **SIT** {#sec-key-SIT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Immature Semiarid Soils**
+:::
+
+{{< pagebreak >}}
