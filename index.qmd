@@ -31,7 +31,3 @@ Hewitt, A.E., 2010. New Zealand soil classification (v. 3.0), 3rd ed, Landcare R
 The intent of this project is to demonstrate the utility of the Quarto authoring format for interacting with the classification on electronic devices.
 
 To raise an issue about the book's content (e.g. code not running) or make a feature request, please use the [issue tracker](https://github.com/lauren-obrien/nzsc_v3/issues).
-
-------------------------------------------------------------------------
-
-{{< pagebreak >}}

@@ -42,7 +42,6 @@ format:
     theme:
       light: cosmo
       dark: slate
-    number-sections: false
     citations-hover: true
     footnotes-hover: true
 
