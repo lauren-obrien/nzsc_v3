@@ -75,10 +75,10 @@ ft_L
 
 Allophanic Soils that have both
 
-1.  [Perch-gley features](diagnostics.qmd#sec-diag-pgley), *and*
-2.  Either a [peaty topsoil](diagnostics.qmd#sec-diag-pts), or within 15 cm of the base of the A horizon or 30 cm of the mineral soil surface, have
-    (a) a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh), *or*
-    (b) a [redox-mottled horizon](diagnostics.qmd#sec-diag-roxh) if the parent material is predominantly andesitic or basaltic.
+1.  [Perch-gley features](Diagnostics.qmd#sec-diag-pgley), *and*
+2.  Either a [peaty topsoil](Diagnostics.qmd#sec-diag-pts), or within 15 cm of the base of the A horizon or 30 cm of the mineral soil surface, have
+    (a) a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh), *or*
+    (b) a [redox-mottled horizon](Diagnostics.qmd#sec-diag-roxh) if the parent material is predominantly andesitic or basaltic.
 
 ::: {style="text-align: right"}
 [**PERCH-GLEY ALLOPHANIC SOILS**](#sec-LP)
@@ -86,10 +86,10 @@ Allophanic Soils that have both
 
 #### **LG** {#sec-key-LG}
 
-Other Allophanic Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts), or within 15 cm of the base of the A horizon or 30 cm of the mineral soil surface, have either
+Other Allophanic Soils that have a [peaty topsoil](Diagnostics.qmd#sec-diag-pts), or within 15 cm of the base of the A horizon or 30 cm of the mineral soil surface, have either
 
-1.  a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh), ***or***
-2.  a [redox-mottled horizon](diagnostics.qmd#sec-diag-roxh) if the parent material is predominantly andesitic or basaltic.
+1.  a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh), ***or***
+2.  a [redox-mottled horizon](Diagnostics.qmd#sec-diag-roxh) if the parent material is predominantly andesitic or basaltic.
 
 ::: {style="text-align: right"}
 [**GLEY ALLOPHANIC SOILS**](#sec-LG)
@@ -97,7 +97,7 @@ Other Allophanic Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts)
 
 #### **LI** {#sec-key-LI}
 
-Other Allophanic Soils that have a [slowly permeable layer](diagnostics.qmd#sec-diag-slowp), or horizon that is at least weakly indurated, within 90 cm of the mineral soil surface.
+Other Allophanic Soils that have a [slowly permeable layer](Diagnostics.qmd#sec-diag-slowp), or horizon that is at least weakly indurated, within 90 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 [**IMPEDED ALLOPHANIC SOILS**](#sec-LI)
@@ -121,7 +121,7 @@ Perch-gley Allophanic Soils occur in sites that are periodically saturated (unle
 
 #### **LPI** {#sec-key-LPI}
 
-Perch-gley Allophanic Soils that have an [ironstone-pan](diagnostics.qmd#sec-diag-ipan) within 90 cm of the mineral soil surface.
+Perch-gley Allophanic Soils that have an [ironstone-pan](Diagnostics.qmd#sec-diag-ipan) within 90 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Ironstone Perch-gley Allophanic Soils**
@@ -141,7 +141,7 @@ Gley Allophanic Soils occur in sites that are periodically saturated (unless art
 
 #### **LGO** {#sec-key-LGO}
 
-Gley Allophanic Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts).
+Gley Allophanic Soils that have a [peaty topsoil](Diagnostics.qmd#sec-diag-pts).
 
 ::: {style="text-align: right"}
 **Peaty Gley Allophanic Soils**
@@ -161,7 +161,7 @@ Impeded Allophanic Soils have a subsurface horizon that acts as a barrier to the
 
 #### **LIMI** {#sec-key-LIMI}
 
-Impeded Allophanic Soils that have an ironstone-pan within 90 cm of the mineral soil surface and that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Impeded Allophanic Soils that have an ironstone-pan within 90 cm of the mineral soil surface and that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled-ironstone Impeded Allophanic Soils**
@@ -169,7 +169,7 @@ Impeded Allophanic Soils that have an ironstone-pan within 90 cm of the mineral
 
 #### **LIM** {#sec-key-LIM}
 
-Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Other soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Impeded Allophanic Soils**
@@ -189,7 +189,7 @@ Orthic Allophanic Soils are permeable soils without barriers to deep penetration
 
 #### **LOM** {#sec-key-LOM}
 
-Orthic Allophanic Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Orthic Allophanic Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Orthic Allophanic Soils**
@@ -197,7 +197,7 @@ Orthic Allophanic Soils that have a [mottled profile form](diagnostics.qmd#sec-d
 
 #### **LOVA** {#sec-key-LOVA}
 
-Other soils that have both 1. ***either*** (a) coatings on pores (excluding root linings), or gel-like masses bridging sand grains or coating coarse-fragments, that have hue 7.5YR or redder, value 5 or less and chroma 3 or more, *or* (b) pH less than 5.5 in some part of the B horizon to 60 cm from the mineral soil surface, *and* 2. [allophanic soil material](diagnostics.qmd#sec-diag-alloph) that is formed predominantly from [tephric soil material](diagnostics.qmd#sec-diag-teph) and has 50% or more sand (by weighted average).
+Other soils that have both 1. ***either*** (a) coatings on pores (excluding root linings), or gel-like masses bridging sand grains or coating coarse-fragments, that have hue 7.5YR or redder, value 5 or less and chroma 3 or more, *or* (b) pH less than 5.5 in some part of the B horizon to 60 cm from the mineral soil surface, *and* 2. [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) that is formed predominantly from [tephric soil material](Diagnostics.qmd#sec-diag-teph) and has 50% or more sand (by weighted average).
 
 ::: {style="text-align: right"}
 **Vitric-acidic Orthic Allophanic Soils**
@@ -205,7 +205,7 @@ Other soils that have both 1. ***either*** (a) coatings on pores (excluding root
 
 #### **LOV** {#sec-key-LOV}
 
-Other soils in which [allophanic soil material](diagnostics.qmd#sec-diag-alloph) layers are formed predominantly from [tephric soil material](diagnostics.qmd#sec-diag-teph) and have 50% or more sand (by weighted average).
+Other soils in which [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) layers are formed predominantly from [tephric soil material](Diagnostics.qmd#sec-diag-teph) and have 50% or more sand (by weighted average).
 
 ::: {style="text-align: right"}
 **Vitric Orthic Allophanic Soils**
@@ -229,5 +229,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Orthic Allophanic Soils**
 :::
-
-{{< pagebreak >}}

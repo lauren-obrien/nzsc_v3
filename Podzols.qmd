@@ -73,7 +73,7 @@ ft_Z
 
 #### **ZD** {#sec-key-ZD}
 
-Podzols that have a [densipan](diagnostics.qmd#sec-diag-dens) (Ed horizon).
+Podzols that have a [densipan](Diagnostics.qmd#sec-diag-dens) (Ed horizon).
 
 ::: {style="text-align: right"}
 [**DENSIPAN PODZOLS**](#sec-ZD)
@@ -83,8 +83,8 @@ Podzols that have a [densipan](diagnostics.qmd#sec-diag-dens) (Ed horizon).
 
 Other Podzols that have both
 
-1.  an E horizon with either the greyish colours of a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh), a [peaty topsoil](diagnostics.qmd#sec-diag-pts), or a [placic horizon](diagnostics.qmd#diag-plac) together with [redox-segregations](diagnostics.qmd#sec-diag-rsegs) in the E horizon, *and*
-2.  a [slowly permeable layer](diagnostics.qmd#sec-diag-slowp) or [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+1.  an E horizon with either the greyish colours of a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh), a [peaty topsoil](Diagnostics.qmd#sec-diag-pts), or a [placic horizon](Diagnostics.qmd#diag-plac) together with [redox-segregations](Diagnostics.qmd#sec-diag-rsegs) in the E horizon, *and*
+2.  a [slowly permeable layer](Diagnostics.qmd#sec-diag-slowp) or [perch-gley features](Diagnostics.qmd#sec-diag-pgley).
 
 ::: {style="text-align: right"}
 [**PERCH-GLEY PODZOLS**](#sec-ZP)
@@ -94,10 +94,10 @@ Other Podzols that have both
 
 Other Podzols that have both
 
-1.  either an E horizon with the greyish colours of a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh) or a [peaty topsoil](diagnostics.qmd#sec-diag-pts), *and*
-2.  a BC or C horizon that has the greyish colours of a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh), that either
+1.  either an E horizon with the greyish colours of a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh) or a [peaty topsoil](Diagnostics.qmd#sec-diag-pts), *and*
+2.  a BC or C horizon that has the greyish colours of a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh), that either
     (a) extends to more than 90 cm from the mineral soil surface, *or*
-    (b) has [redox segregations](diagnostics.qmd#sec-diag-rsegs) that occur mainly as coatings on voids and/or skeletan grains.
+    (b) has [redox segregations](Diagnostics.qmd#sec-diag-rsegs) that occur mainly as coatings on voids and/or skeletan grains.
 
 ::: {style="text-align: right"}
 [**GROUNDWATER-GLEY PODZOLS**](#sec-ZG)
@@ -130,7 +130,7 @@ Densipan Podzols have a high density but uncemented pan within the E horizon at 
 
 #### **ZDU** {#sec-key-ZDU}
 
-Densipan Podzols that have a [humus-pan](diagnostics.qmd#sec-diag-hpan).
+Densipan Podzols that have a [humus-pan](Diagnostics.qmd#sec-diag-hpan).
 
 ::: {style="text-align: right"}
 **Humus-pan Densipan Podzols**
@@ -154,7 +154,7 @@ Other soils that have a Bh horizon 5 cm or more thick.
 
 #### **ZDQ** {#sec-key-ZDQ}
 
-Other soils that have an [ortstein-pan](diagnostics.qmd#sec-diag-opan).
+Other soils that have an [ortstein-pan](Diagnostics.qmd#sec-diag-opan).
 
 ::: {style="text-align: right"}
 **Ortstein Densipan Podzols**
@@ -170,7 +170,7 @@ Other soils.
 
 ### **ZP** - PERCH-GLEY PODZOLS {#sec-ZP}
 
-Perch-gley Podzols occur in periodically or predominantly saturated sites (unless artificially drained) in which wetness is indicated by grey colours along with brownish or reddish mottles or [peaty topsoils](diagnostics.qmd#sec-diag-pts). The wetness is caused by the perching of water on a [slowly permeable subsurface layer](diagnostics.qmd#sec-diag-slowp), although a groundwater-table may also be present.
+Perch-gley Podzols occur in periodically or predominantly saturated sites (unless artificially drained) in which wetness is indicated by grey colours along with brownish or reddish mottles or [peaty topsoils](Diagnostics.qmd#sec-diag-pts). The wetness is caused by the perching of water on a [slowly permeable subsurface layer](Diagnostics.qmd#sec-diag-slowp), although a groundwater-table may also be present.
 
 #### **ZPF** {#sec-key-ZDF}
 
@@ -188,7 +188,7 @@ Other soils that have both
     (a) has slightly firm or greater moist soil strength, *and*
     (b) is apedal massive or has very coarse to extremely coarse prismatic pedality, *and*
     (c) occurs within a layer that is silty through a thickness of at least 15 cm, *and*
-2.  a [peaty topsoil](diagnostics.qmd#sec-diag-pts).
+2.  a [peaty topsoil](Diagnostics.qmd#sec-diag-pts).
 
 ::: {style="text-align: right"}
 **Peaty-silt-mantled Perch-gley Podzols**
@@ -204,7 +204,7 @@ Other soils that have an E horizon that has slightly firm or greater moist soil 
 
 #### **ZPU** {#sec-key-ZPU}
 
-Other soils that have a [humus-pan](diagnostics.qmd#sec-diag-hpan).
+Other soils that have a [humus-pan](Diagnostics.qmd#sec-diag-hpan).
 
 ::: {style="text-align: right"}
 **Humus-pan Perch-gley Podzols**
@@ -212,7 +212,7 @@ Other soils that have a [humus-pan](diagnostics.qmd#sec-diag-hpan).
 
 #### **ZPHQ** {#sec-key-ZPHQ}
 
-Other soils that have a Bh horizon thicker than 5 cm, and an [ortstein horizon](diagnostics.qmd#sec-diag-opan).
+Other soils that have a Bh horizon thicker than 5 cm, and an [ortstein horizon](Diagnostics.qmd#sec-diag-opan).
 
 ::: {style="text-align: right"}
 **Humose-ortstein Perch-gley Podzols**
@@ -220,7 +220,7 @@ Other soils that have a Bh horizon thicker than 5 cm, and an [ortstein horizon]
 
 #### **ZPHP** {#sec-key-ZPHP}
 
-Other soils that have a Bh horizon thicker than 5 cm, and a [placic horizon](diagnostics.qmd#sec-diag_plac).
+Other soils that have a Bh horizon thicker than 5 cm, and a [placic horizon](Diagnostics.qmd#sec-diag_plac).
 
 ::: {style="text-align: right"}
 **Humose-placic Perch-gley Podzols**
@@ -236,7 +236,7 @@ Other soils that have a Bh horizon thicker than 5 cm.
 
 #### **ZPQ** {#sec-key-ZPQ}
 
-Other soils with an [ortstein-pan](diagnostics.qmd#sec-diag-opan).
+Other soils with an [ortstein-pan](Diagnostics.qmd#sec-diag-opan).
 
 ::: {style="text-align: right"}
 **Ortstein Perch-gley Podzols**
@@ -244,7 +244,7 @@ Other soils with an [ortstein-pan](diagnostics.qmd#sec-diag-opan).
 
 #### **ZPP** {#sec-key-ZPP}
 
-Other soils that have a [placic horizon](diagnostics.qmd#sec-diag-plac).
+Other soils that have a [placic horizon](Diagnostics.qmd#sec-diag-plac).
 
 ::: {style="text-align: right"}
 **Placic Perch-gley Podzols**
@@ -284,7 +284,7 @@ Pan Podzols have a firm or indurated layer which restricts the penetration of ro
 
 #### **ZXU** {#sec-key-ZXU}
 
-Pan Podzols that have a [humus-pan](diagnostics.qmd#sec-diag-hpan).
+Pan Podzols that have a [humus-pan](Diagnostics.qmd#sec-diag-hpan).
 
 ::: {style="text-align: right"}
 **Humus-pan Pan Podzols**
@@ -292,7 +292,7 @@ Pan Podzols that have a [humus-pan](diagnostics.qmd#sec-diag-hpan).
 
 #### **ZXH** {#sec-key-ZXH}
 
-Other soils that have a Bh horizon, and either an [ortstein-pan](diagnostics.qmd#sec-diag-opan) or [placic horizon](diagnostics.qmd#sec-diag-plac).
+Other soils that have a Bh horizon, and either an [ortstein-pan](Diagnostics.qmd#sec-diag-opan) or [placic horizon](Diagnostics.qmd#sec-diag-plac).
 
 ::: {style="text-align: right"}
 **Humus Pan Podzols**
@@ -300,7 +300,7 @@ Other soils that have a Bh horizon, and either an [ortstein-pan](diagnostics.qmd
 
 #### **ZXX** {#sec-key-ZXX}
 
-Other soils that have a [fragipan](diagnostics.qmd#sec-diag-fpan).
+Other soils that have a [fragipan](Diagnostics.qmd#sec-diag-fpan).
 
 ::: {style="text-align: right"}
 **Fragic Pan Podzols**
@@ -308,7 +308,7 @@ Other soils that have a [fragipan](diagnostics.qmd#sec-diag-fpan).
 
 #### **ZXQ** {#sec-key-ZXQ}
 
-Other soils that have an [ortstein-pan](diagnostics.qmd#sec-diag-opan).
+Other soils that have an [ortstein-pan](Diagnostics.qmd#sec-diag-opan).
 
 ::: {style="text-align: right"}
 **Ortstein Pan Podzols**
@@ -316,7 +316,7 @@ Other soils that have an [ortstein-pan](diagnostics.qmd#sec-diag-opan).
 
 #### **ZXP** {#sec-key-ZXP}
 
-Other soils that have a [placic horizon](diagnostics.qmd#sec-diag-plac).
+Other soils that have a [placic horizon](Diagnostics.qmd#sec-diag-plac).
 
 ::: {style="text-align: right"}
 **Placic Pan Podzols**
@@ -349,5 +349,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Orthic Podzols**
 :::
-
-{{< pagebreak >}}

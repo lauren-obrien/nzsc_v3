@@ -59,8 +59,8 @@ ft_X
 
 Oxidic soils Soils that have both
 
-1.  a [gley profile form](diagnostics.qmd#sec-diag-gleypf), *and*
-2.  [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+1.  a [gley profile form](Diagnostics.qmd#sec-diag-gleypf), *and*
+2.  [perch-gley features](Diagnostics.qmd#sec-diag-pgley).
 
 ::: {style="text-align: right"}
 [**PERCH-GLEY OXIDIC SOILS**](#sec-XP)
@@ -68,7 +68,7 @@ Oxidic soils Soils that have both
 
 #### **XN** {#sec-key-XN}
 
-Other Oxidic Soils that have a [nodular horizon](diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
+Other Oxidic Soils that have a [nodular horizon](Diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 [**NODULAR OXIDIC SOILS**](#sec-XN)
@@ -86,11 +86,11 @@ Other Oxidic Soils.
 
 ### **XP** - PERCH-GLEY OXIDIC SOILS {#sec-XP}
 
-Perch-gley Oxidic Soils occur in sites that are periodically saturated (unless artificially drained). Wetness and associated reducing conditions are indicated by grey colours, and are caused by perching on a [slowly permeable layer](diagnostics.qmd#sec-diag-slowp).
+Perch-gley Oxidic Soils occur in sites that are periodically saturated (unless artificially drained). Wetness and associated reducing conditions are indicated by grey colours, and are caused by perching on a [slowly permeable layer](Diagnostics.qmd#sec-diag-slowp).
 
 #### **XPN** {#sec-key-XPN}
 
-Perch-gley Oxidic Soils that have a [nodular horizon](diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
+Perch-gley Oxidic Soils that have a [nodular horizon](Diagnostics.qmd#sec-diag-nodh) with an upper boundary within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Nodular Perch-gley Oxidic Soils**
@@ -122,7 +122,7 @@ Orthic Oxidic Soils occur in clayey soil materials derived from early to mid-Ple
 
 #### **XOM** {#sec-key-XOM}
 
-Orthic Oxidic Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Orthic Oxidic Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Orthic Oxidic Soils**
@@ -146,5 +146,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Orthic Oxidic Soils**
 :::
-
-{{< pagebreak >}}

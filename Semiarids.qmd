@@ -18,7 +18,7 @@ Semiarid Soils occur in the inland basins of Otago and southern Canterbury, wher
 2.  *High base status.* Base saturation values in subsoils are high and rise to 100% at the base of the solum.
 3.  *Parent materials.* The soils occur in materials from non-calcareous quartzo-feldspathic schist and indurated sandstone (greywacke).
 4.  *Illitic clay mineralogy.* Mica/illite clay minerals predominate with trace primary chlorite and kaolinite. Semiarid Soils almost always have an Illitic mineralogy class unless they have a clay content of less than 10% and fall into the Mixed class.
-5.  *Permeability.* Saturated hydraulic conductivity is slow in soils with [argillic](diagnostics.qmd#sec-diag-argh) or [cutanic horizons](diagnostics.qmd#sec-diag-cuth), and in some other silty or fine sandy soils. Infiltration may be reduced by traffic or treading when soils are saturated by irrigation water.
+5.  *Permeability.* Saturated hydraulic conductivity is slow in soils with [argillic](Diagnostics.qmd#sec-diag-argh) or [cutanic horizons](Diagnostics.qmd#sec-diag-cuth), and in some other silty or fine sandy soils. Infiltration may be reduced by traffic or treading when soils are saturated by irrigation water.
 6.  *Drainage.* No poorly or very poorly drained soils are included.
 7.  *Available water capacity.* Available water capacity is limited in most subsoils.
 8.  *Low biological activity.* In the natural state, biological activity is limited by droughtiness.
@@ -26,7 +26,7 @@ Semiarid Soils occur in the inland basins of Otago and southern Canterbury, wher
 10. *Erosive.* The soils are susceptible to wind and fluvial erosion.
 11. *Weakly buffered.* The soils are weakly buffered because of low CEC and anion adsorption capacity. They are consequently very sensitive to management, showing rapid changes in response to fertilisation, irrigation and cultivation.
 12. *Soluble salts.* Soluble salts are present in many soils and land management must consider the risk of salinisation.
-13. *High sodium.* Many soils, particularly those with [argillic horizons](diagnostics.qmd#sec-diag-argh) have high percentage sodium saturation of the exchange complex.
+13. *High sodium.* Many soils, particularly those with [argillic horizons](Diagnostics.qmd#sec-diag-argh) have high percentage sodium saturation of the exchange complex.
 14. *Climate.* Precipitation ranges from about 350 to 500 mm per year, with zero water surplus and a spring soil moisture deficit.
 
 ## Summary of Semiarid Soils Hierarchy {#sec-sum-S}
@@ -70,7 +70,7 @@ ft_S
 
 #### **SA** {#sec-key-SA}
 
-Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) in which the matrix has, in part, 7.5YR or redder hues or 10YR hue with chroma 6 or more.
+Semiarid Soils that have an [argillic horizon](Diagnostics.qmd#sec-diag-argh) in which the matrix has, in part, 7.5YR or redder hues or 10YR hue with chroma 6 or more.
 
 ::: {style="text-align: right"}
 [**AGED-ARGILLIC SEMIARID SOILS**](#sec-SA)
@@ -78,7 +78,7 @@ Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) in
 
 #### **SZ** {#sec-key-SZ}
 
-Other Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) that has prismatic or blocky peds with more than 10% coatings of colour value 4 or less, and pH of 8.6 or more in some part.
+Other Semiarid Soils that have an [argillic horizon](Diagnostics.qmd#sec-diag-argh) that has prismatic or blocky peds with more than 10% coatings of colour value 4 or less, and pH of 8.6 or more in some part.
 
 ::: {style="text-align: right"}
 [**SOLONETZIC SEMIARID SOILS**](#sec-SZ)
@@ -86,7 +86,7 @@ Other Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-ar
 
 #### **SJ** {#sec-key-SJ}
 
-Other Semiarid Soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh), or a [cutanic horizon](diagnostics.qmd#sec-diag-cuth) that meets the requirements of a slowly permeable layer.
+Other Semiarid Soils that have an [argillic horizon](Diagnostics.qmd#sec-diag-argh), or a [cutanic horizon](Diagnostics.qmd#sec-diag-cuth) that meets the requirements of a slowly permeable layer.
 
 ::: {style="text-align: right"}
 [**ARGILLIC SEMIARID SOILS**](#sec-SJ)
@@ -104,11 +104,11 @@ Other Semiarid Soils.
 
 ### **SA** - AGED-ARGILLIC SEMIARID SOILS {#sec-SA}
 
-Aged-Argillic Semiarid Soils occur mainly on fans, terraces or hill slopes that have been relatively stable since mid to early Pleistocene. The [argillic horizons](diagnostics.qmd#sec-diag-argh) are redder in colour than those in younger soils, and are usually [slowly permeable](diagnostics.qmd#sec-diag-slowp).
+Aged-Argillic Semiarid Soils occur mainly on fans, terraces or hill slopes that have been relatively stable since mid to early Pleistocene. The [argillic horizons](Diagnostics.qmd#sec-diag-argh) are redder in colour than those in younger soils, and are usually [slowly permeable](Diagnostics.qmd#sec-diag-slowp).
 
 #### **SAM** {#sec-key-SAM}
 
-Aged-Argillic Semiarid Soils that have a [mottled soil profile form](diagnostics.qmd#sec-diag-mottpf).
+Aged-Argillic Semiarid Soils that have a [mottled soil profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Aged-argillic Semiarid Soils**
@@ -132,7 +132,7 @@ Other soils that have pH of 8.6 or more in some part within 60 cm of the minera
 
 #### **SAH** {#sec-key-SAH}
 
-Other soils with an [argillic horizon](diagnostics.qmd#sec-diag-argh) 30 cm or more thick.
+Other soils with an [argillic horizon](Diagnostics.qmd#sec-diag-argh) 30 cm or more thick.
 
 ::: {style="text-align: right"}
 **Thick Aged-argillic Semiarid Soils**
@@ -168,11 +168,11 @@ Other soils.
 
 ### **SJ** - ARGILLIC SEMIARID SOILS {#sec-SJ}
 
-Argillic Semiarid Soils occur on land surfaces of early Holocene or late Pleistocene age. The [argillic horizon](diagnostics.qmd#sec-diag-argh) is brown, dark brown or olive brown in colour and usually slowly permeable.
+Argillic Semiarid Soils occur on land surfaces of early Holocene or late Pleistocene age. The [argillic horizon](Diagnostics.qmd#sec-diag-argh) is brown, dark brown or olive brown in colour and usually slowly permeable.
 
 #### **SJM** {#sec-key-SJM}
 
-Argillic Semiarid Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Argillic Semiarid Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Argillic Semiarid Soils**
@@ -196,7 +196,7 @@ Other soils that have pH of 8.6 or more in some part within 60 cm of the minera
 
 #### **SJL** {#sec-key-SJL}
 
-Other soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) that is predominantly in the form of lamellae.
+Other soils that have an [argillic horizon](Diagnostics.qmd#sec-diag-argh) that is predominantly in the form of lamellae.
 
 ::: {style="text-align: right"}
 **Laminar Argillic Semiarid Soils**
@@ -216,7 +216,7 @@ Immature Semiarid Soils occur on Holocene land surfaces and do not have argillic
 
 #### **SIM** {#sec-key-SIM}
 
-Immature Semiarid Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Immature Semiarid Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Immature Semiarid Soils**
@@ -245,5 +245,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Immature Semiarid Soils**
 :::
-
-{{< pagebreak >}}

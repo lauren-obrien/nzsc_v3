@@ -62,7 +62,7 @@ ft_W
 
 Raw Soils that at 30 cm or less from the mineral soil surface have either
 
-1.  the upper boundary of a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh), *or*
+1.  the upper boundary of a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh), *or*
 2.  sufficient active ferrous iron to give a positive reaction to α,α'-dipyridyl at some time in the year, *or*
 3.  are saturated for 30 or more consecutive days in most years.
 
@@ -80,7 +80,7 @@ Other Raw Soils that have mean annual soil temperature at 30 cm depth of at lea
 
 #### **WX** {#sec-key-WX}
 
-Other Raw Soils with a [lithic](diagnostics.qmd#sec-diag-lithc) or [paralithic contact](diagnostics.qmd#sec-diag-lithp) within 30 cm of the soil surface.
+Other Raw Soils with a [lithic](Diagnostics.qmd#sec-diag-lithc) or [paralithic contact](Diagnostics.qmd#sec-diag-lithp) within 30 cm of the soil surface.
 
 ::: {style="text-align: right"}
 [**ROCKY RAW SOILS**](#sec-WX)
@@ -96,7 +96,7 @@ Other Raw Soils that have sand or loamy sand texture and that have less than 35%
 
 #### **WF** {#sec-key-WF}
 
-Other Raw Soils that have [fluvial features](diagnostics.qmd#sec-diag-fluv) and are not buried by more than 30 cm of non­fluvial soil material.
+Other Raw Soils that have [fluvial features](Diagnostics.qmd#sec-diag-fluv) and are not buried by more than 30 cm of non­fluvial soil material.
 
 ::: {style="text-align: right"}
 [**FLUVIAL RAW SOILS**](#sec-WF)
@@ -104,7 +104,7 @@ Other Raw Soils that have [fluvial features](diagnostics.qmd#sec-diag-fluv) and 
 
 #### **WT** {#sec-key-WT}
 
-Other Raw Soils in [tephric soil material](diagnostics.qmd#sec-diag-teph) from the soil surface to 30 cm depth or more.
+Other Raw Soils in [tephric soil material](Diagnostics.qmd#sec-diag-teph) from the soil surface to 30 cm depth or more.
 
 ::: {style="text-align: right"}
 [**TEPHRIC RAW SOILS**](#sec-WT)
@@ -227,5 +227,3 @@ No subgroups have been defined.
 Orthic Raw Soils occur in land that is being eroded, on rock outcrops or land that has received sediment emplaced primarily by slope processes.
 
 No subgroups have been defined.
-
-{{< pagebreak >}}

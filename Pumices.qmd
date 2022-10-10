@@ -64,8 +64,8 @@ ft_M
 
 Pumice Soils that have *both*
 
-1.  a [gley profile form](diagnostics.qmd#sec-diag-gleypf), *and*
-2.  [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+1.  a [gley profile form](Diagnostics.qmd#sec-diag-gleypf), *and*
+2.  [perch-gley features](Diagnostics.qmd#sec-diag-pgley).
 
 ::: {style="text-align: right"}
 [**PERCH-GLEY PUMICE SOILS**](#sec-MP)
@@ -73,7 +73,7 @@ Pumice Soils that have *both*
 
 #### **MI** {#sec-key-MI}
 
-Other Pumic Soils that have a [slowly permeable layer](diagnostics.qmd#sec-diag-slowp), or a compacted welded layer that has brittle failure and no roots, within 90 cm of the mineral soil surface.
+Other Pumic Soils that have a [slowly permeable layer](Diagnostics.qmd#sec-diag-slowp), or a compacted welded layer that has brittle failure and no roots, within 90 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 [**IMPEDED PUMICE SOILS**](#sec-MI)
@@ -95,7 +95,7 @@ Perch-gley Pumice Soils occur in periodically saturated sites (unless artificial
 
 #### **MPU** {#sec-key-MPU}
 
-Perch-gley Pumice Soils with a [duric horizon](diagnostics.qmd#sec-diag-dpan) within 90 cm of the mineral soil surface.
+Perch-gley Pumice Soils with a [duric horizon](Diagnostics.qmd#sec-diag-dpan) within 90 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Duric Perch-gley Pumice Soils**
@@ -118,7 +118,7 @@ Impeded Pumice Soils have a horizon that severely restricts the movement of wate
 Impeded Pumice Soils that have both
 
 1.  a compact welded layer of flow tephra (ignimbrite) that has brittle failure and no roots with an upper boundary within 90 cm of the mineral soil surface, *and*
-2.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+2.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled-welded Impeded Pumice Soils**
@@ -134,7 +134,7 @@ Other soils that have a compact welded layer of flow tephra (ignimbrite) that ha
 
 #### **MIM** {#sec-key-MIM}
 
-Others soils with a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Others soils with a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Impeded Pumice Soils**
@@ -154,7 +154,7 @@ Orthic Pumice Soils are well drained to imperfectly drained, are deep rooting an
 
 #### **MOM** {#sec-key-MOM}
 
-Orthic Pumice Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Orthic Pumice Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Orthic Pumice Soils**
@@ -170,7 +170,7 @@ Other soils that have a B horizon, or subhorizon of the B, that is thicker than 
 
 #### **MOL** {#sec-key-MOL}
 
-Other soils that have a layer within the thickness of [vitric soil material](diagnostics.qmd#sec-diag-vitr), that meets the requirements of an [allophanic soil material](diagnostics.qmd#sec-diag-alloph) (except for bulk density).
+Other soils that have a layer within the thickness of [vitric soil material](Diagnostics.qmd#sec-diag-vitr), that meets the requirements of an [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) (except for bulk density).
 
 ::: {style="text-align: right"}
 **Allophanic Orthic Pumice Soils**
@@ -178,7 +178,7 @@ Other soils that have a layer within the thickness of [vitric soil material](dia
 
 #### **MOBL** {#sec-key-MOBL}
 
-Other soils with a layer of [vitric soil material](diagnostics.qmd#sec-diag-vitr) with a base at less than 60 cm from the mineral soil surface and within the B horizon, that overlies a layer which fails to meet the requirements of a vitric soil material but meets the requirements of [allophanic soil material](diagnostics.qmd#sec-diag-alloph) (except bulk density).
+Other soils with a layer of [vitric soil material](Diagnostics.qmd#sec-diag-vitr) with a base at less than 60 cm from the mineral soil surface and within the B horizon, that overlies a layer which fails to meet the requirements of a vitric soil material but meets the requirements of [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) (except bulk density).
 
 ::: {style="text-align: right"}
 **Buried-allophanic Orthic Pumice Soils**
@@ -196,4 +196,6 @@ Other soils with a Bw that is 30 cm or less thick and has hue 10YR or yellower 
 
 Other soils.
 
-{{< pagebreak >}}
+::: {style="text-align: right"}
+**Typic Orthic Pumice Soils**
+:::

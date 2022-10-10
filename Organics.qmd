@@ -72,7 +72,7 @@ Organic Soils that occur entirely in partly or fully decomposed forest litter an
 
 #### **OF** {#sec-key-OF}
 
-Other soils that, from the upper surface of the [organic soil material](diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by fibric organic soil material (Of horizons).
+Other soils that, from the upper surface of the [organic soil material](Diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by fibric organic soil material (Of horizons).
 
 ::: {style="text-align: right"}
 [**FIBRIC ORGANIC SOILS**](#sec-OF)
@@ -80,7 +80,7 @@ Other soils that, from the upper surface of the [organic soil material](diagnost
 
 #### **OM** {#sec-key-OM}
 
-Other soils that, from the upper surface of the [organic soil material](diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by mesic organic soil material (Om horizons).
+Other soils that, from the upper surface of the [organic soil material](Diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by mesic organic soil material (Om horizons).
 
 ::: {style="text-align: right"}
 [**MESIC ORGANIC SOILS**](#sec-OM)
@@ -88,7 +88,7 @@ Other soils that, from the upper surface of the [organic soil material](diagnost
 
 #### **OH** {#sec-key-OH}
 
-Other soils that, from the upper surface of the [organic soil material](diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by humified organic soil material (Oh horizons).
+Other soils that, from the upper surface of the [organic soil material](Diagnostics.qmd#sec-diag-org) to 60 cm depth, or to the base of the organic soil material if shallower, have horizons dominated (by accumulated thickness) by humified organic soil material (Oh horizons).
 
 ::: {style="text-align: right"}
 [**HUMIC ORGANIC SOILS**](#sec-OH)
@@ -102,7 +102,7 @@ Litter Organic Soils occur under forest beneath a canopy of acid litter or mor-f
 
 #### **OLBZ** {#sec-key-OLBZ}
 
-Litter Organic Soils in which an underlying mineral soil, with an upper boundary at less than 90 cm from the soil surface, has a [podzolic-B](diagnostics.qmd#sec-diag-podzb) or [placic horizon](diagnostics.qmd#sec-diag-plac).
+Litter Organic Soils in which an underlying mineral soil, with an upper boundary at less than 90 cm from the soil surface, has a [podzolic-B](Diagnostics.qmd#sec-diag-podzb) or [placic horizon](Diagnostics.qmd#sec-diag-plac).
 
 ::: {style="text-align: right"}
 **Buried-podzol Litter Organic Soils**
@@ -110,7 +110,7 @@ Litter Organic Soils in which an underlying mineral soil, with an upper boundary
 
 #### **OLBG** {#sec-key-OLBG}
 
-Other soils in which a [reductimorphic horizon](diagnostics.qmd#sec-diag-redmh) occurs at less than 30 cm beneath the upper surface of the underlying mineral soil.
+Other soils in which a [reductimorphic horizon](Diagnostics.qmd#sec-diag-redmh) occurs at less than 30 cm beneath the upper surface of the underlying mineral soil.
 
 ::: {style="text-align: right"}
 **Buried-gley Litter Organic Soils**
@@ -130,7 +130,7 @@ Fibric Organic Soils occur in sites that are saturated to the surface for extend
 
 #### **OFS** {#sec-key-OFS}
 
-Fibric Organic Soils in which the organic fibres, to a depth of 60 cm from the soil surface, or to the base of [organic soil material](diagnostics.qmd#sec-diag-org) if shallower, are more than 70% *Sphagnum* species.
+Fibric Organic Soils in which the organic fibres, to a depth of 60 cm from the soil surface, or to the base of [organic soil material](Diagnostics.qmd#sec-diag-org) if shallower, are more than 70% *Sphagnum* species.
 
 ::: {style="text-align: right"}
 **Sphagnic Fibric Organic Soils**
@@ -138,7 +138,7 @@ Fibric Organic Soils in which the organic fibres, to a depth of 60 cm from the 
 
 #### **OFA** {#sec-key-OFA}
 
-Other soils in which the [organic soil material](diagnostics.qmd#sec-diag-org) to a depth of 60 cm from the soil surface, or to its base if shallower, has pH of 4.5 or less throughout the major part.
+Other soils in which the [organic soil material](Diagnostics.qmd#sec-diag-org) to a depth of 60 cm from the soil surface, or to its base if shallower, has pH of 4.5 or less throughout the major part.
 
 ::: {style="text-align: right"}
 **Acid Fibric Organic Soils**
@@ -158,7 +158,7 @@ Mesic Organic Soils occur in very wet sites (or in sites that have been artifici
 
 #### **OMA** {#sec-key-OMA}
 
-Other soils in which the [organic soil material](diagnostics.qmd#sec-diag-org) to a depth of 60 cm from the soil surface, or to its base if shallower, has pH of 4.5 or less throughout the major part.
+Other soils in which the [organic soil material](Diagnostics.qmd#sec-diag-org) to a depth of 60 cm from the soil surface, or to its base if shallower, has pH of 4.5 or less throughout the major part.
 
 ::: {style="text-align: right"}
 **Acid Mesic Organic Soils**
@@ -191,5 +191,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Mellow Humic Organic Soils**
 :::
-
-{{< pagebreak >}}

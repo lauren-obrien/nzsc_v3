@@ -86,7 +86,7 @@ Recent soils that have either
 
 #### **RX** {#sec-key-RX}
 
-Other Recent Soils that have a [lithic](diagnostics.qmd#sec-diag-lithc) or [paralithic contact](diagnostics.qmd#sec-diag-plith) either directly beneath the A horizon or have a weathered-B or unconsolidated C horizon that is less than 10 cm thick.
+Other Recent Soils that have a [lithic](Diagnostics.qmd#sec-diag-lithc) or [paralithic contact](Diagnostics.qmd#sec-diag-plith) either directly beneath the A horizon or have a weathered-B or unconsolidated C horizon that is less than 10 cm thick.
 
 ::: {style="text-align: right"}
 [**ROCKY RECENT SOILS**](#sec-RX)
@@ -144,7 +144,7 @@ Rocky Recent Soils have rock at shallow depths, severely restricting the soil vo
 
 #### **RXOA** {#sec-key-RXOA}
 
-Rocky Recent Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts) and a pH less than 5.5 in some part below 20 cm from the mineral soil surface.
+Rocky Recent Soils that have a [peaty topsoil](Diagnostics.qmd#sec-diag-pts) and a pH less than 5.5 in some part below 20 cm from the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Peaty-acidic Rocky Recent Soils**
@@ -172,7 +172,7 @@ Sandy Recent Soils occur in sand deposits which are dominantly aeolian, and some
 
 #### **RSM** {#sec-key-RSM}
 
-Sandy Recent Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Sandy Recent Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Sandy Recent Soils**
@@ -188,7 +188,7 @@ Other soils that have pH less than 5.5 in some part between 20 and 60 cm from t
 
 #### **RSK** {#sec-key-RSK}
 
-Other soils in [tephric soil material](diagnostics.qmd#sec-diag-teph) from the mineral soil surface to 30 cm depth or more.
+Other soils in [tephric soil material](Diagnostics.qmd#sec-diag-teph) from the mineral soil surface to 30 cm depth or more.
 
 ::: {style="text-align: right"}
 **Tephric Sandy Recent Soils**
@@ -210,7 +210,7 @@ Fluvial Recent Soils occur in sediments deposited by flowing water. Many occur o
 
 Fluvial Recent Soils that have both
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
 2.  pH less than 5.5 in some part between the base of the A horizon and within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
@@ -221,7 +221,7 @@ Fluvial Recent Soils that have both
 
 Other soils that have both
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
 2.  have electrical conductivity of 0.8 mS/cm or more within 60 cm of the mineral soil surface at some time of the year.
 
 ::: {style="text-align: right"}
@@ -240,8 +240,8 @@ Other soils that have electrical conductivity of 0.8 mS/cm or more within 60 c
 
 Other soils that have both
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
-2.  a [weathered-B horizon](diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
+2.  a [weathered-B horizon](Diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Mottled-weathered Fluvial Recent Soils**
@@ -249,7 +249,7 @@ Other soils that have both
 
 #### **RFM** {#sec-key-RFM}
 
-Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Other soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Fluvial Recent Soils**
@@ -259,7 +259,7 @@ Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
 
 Other soils that have both
 
-1.  a [weathered-B horizon](diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface, *and*
+1.  a [weathered-B horizon](Diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface, *and*
 2.  pH less than 5.5 in some part of the subsurface horizons within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
@@ -268,7 +268,7 @@ Other soils that have both
 
 #### **RFW** {#sec-key-RFW}
 
-Other soils that have a [weathered-B horizon](diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
+Other soils that have a [weathered-B horizon](Diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Weathered Fluvial Recent Soils**
@@ -296,7 +296,7 @@ Tephric Recent Soils occur in unconsolidated sediments of volcanic origin includ
 
 #### **RTM** {#sec-key-RTM}
 
-Tephric Recent Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Tephric Recent Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Tephric Recent Soils**
@@ -304,7 +304,7 @@ Tephric Recent Soils that have a [mottled profile form](diagnostics.qmd#sec-diag
 
 #### **RTBP** {#sec-key-RTBP}
 
-Other soils that have a buried soil, with its upper surface within 60 cm or less from the mineral soil surface that has a B horizon that meets the requirements of [vitric soil material](diagnostics.qmd#sec-diag-vitr).
+Other soils that have a buried soil, with its upper surface within 60 cm or less from the mineral soil surface that has a B horizon that meets the requirements of [vitric soil material](Diagnostics.qmd#sec-diag-vitr).
 
 ::: {style="text-align: right"}
 **Buried-pumice Tephric Recent Soils**
@@ -312,7 +312,7 @@ Other soils that have a buried soil, with its upper surface within 60 cm or les
 
 #### **RTBL** {#sec-key-RTBL}
 
-Other soils that have a buried soil within 60 cm or less from the mineral soil surface to the upper surface of the buried soil, and have a B horizon that meets the requirements of [allophanic soil material](diagnostics.qmd#sec-diag-alloph), but not necessarily the requirements for bulk density.
+Other soils that have a buried soil within 60 cm or less from the mineral soil surface to the upper surface of the buried soil, and have a B horizon that meets the requirements of [allophanic soil material](Diagnostics.qmd#sec-diag-alloph), but not necessarily the requirements for bulk density.
 
 ::: {style="text-align: right"}
 **Buried-allophanic Tephric Recent Soils**
@@ -334,8 +334,8 @@ Orthic Recent Soils occur on land that is being eroded or has received sediment 
 
 Other soils that have both
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
-2.  meets part 2(b) of the requirements for [Pallic Soils](key-to-orders.qmd#sec-P).
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
+2.  meets part 2(b) of the requirements for [Pallic Soils](Key-to-Orders.qmd#sec-P).
 
 ::: {style="text-align: right"}
 **Mottled-pallic Orthic Recent Soils**
@@ -343,7 +343,7 @@ Other soils that have both
 
 #### **ROM** {#sec-key-ROM}
 
-Orthic Recent Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Orthic Recent Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Orthic Recent Soils**
@@ -353,7 +353,7 @@ Orthic Recent Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-
 
 Other soils that have *both*
 
-1.  a [weathered-B horizon](diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface, *and*
+1.  a [weathered-B horizon](Diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface, *and*
 2.  pH less than 5.5 in some part of the subsurface horizons within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
@@ -362,7 +362,7 @@ Other soils that have *both*
 
 #### **ROW** {#sec-key-ROW}
 
-Other soils that have a [weathered-B horizon](diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
+Other soils that have a [weathered-B horizon](Diagnostics.qmd#sec-diag-bw) with its lower boundary at 30 cm or more from the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Weathered Orthic Recent Soils**
@@ -383,5 +383,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Orthic Recent Soils**
 :::
-
-{{< pagebreak >}}

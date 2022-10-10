@@ -19,7 +19,7 @@ Granular Soils are only known to occur in the northern North Island, particularl
 3.  *Kandic mineralogy.* Granular Soils usually belong to the Kandic mineralogy class.
 4.  *Slowly permeable.* Saturated hydraulic conductivity is slow or marginally slow somewhere in the profile, resulting in periods of perching of water.
 5.  *Limited root depth.* The extension of plant roots in subsoils is commonly limited by either high penetration resistance, wetness or aluminium toxicity.
-6.  *Limited workability when wet.* Workability and trafficability is constrained by stickiness and plasticity after heavy rainfall, particularly in contrast to [Oxidic Soils](key-to-orders.qmd#sec-X).
+6.  *Limited workability when wet.* Workability and trafficability is constrained by stickiness and plasticity after heavy rainfall, particularly in contrast to [Oxidic Soils](Key-to-Orders.qmd#sec-X).
 7.  *Low phosphorus status.* Phosphorus fixation may be high, as indicated by high P retention levels.
 8.  *Strongly weathered with low nutrient reserves.* Reserves of phosphorus, potassium and magnesium are low, particularly in the [Oxidic group](#sec-NX).
 9.  *Sulphate in B horizons.* Sulphate tends to be strongly adsorbed in B horizons.
@@ -66,8 +66,8 @@ ft_N
 
 Granular soils that have *both*
 
-1.  a [gley profile form](diagnostics.qmd#sec-diag-gleypf), *and*
-2.  [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+1.  a [gley profile form](Diagnostics.qmd#sec-diag-gleypf), *and*
+2.  [perch-gley features](Diagnostics.qmd#sec-diag-pgley).
 
 ::: {style="text-align: right"}
 [**PERCH-GLEY GRANULAR SOILS**](#sec-NP)
@@ -83,7 +83,7 @@ Other Granular soils that have pH of 5.9 or more in the major part of the B hori
 
 #### **NX** {#sec-key-NX}
 
-Other Granular soils that have a [cutanoxidic horizon](diagnostics.qmd#sec-diag-cutoxh) more than 30 cm thick with an upper boundary at 25 cm or more from the mineral soil surface.
+Other Granular soils that have a [cutanoxidic horizon](Diagnostics.qmd#sec-diag-cutoxh) more than 30 cm thick with an upper boundary at 25 cm or more from the mineral soil surface.
 
 ::: {style="text-align: right"}
 [**OXIDIC GRANULAR SOILS**](#sec-NX)
@@ -105,7 +105,7 @@ Perch-gley Granular Soils occur in sites that are periodically saturated (if und
 
 #### **NPX** {#sec-key-NPX}
 
-Perch-gley Granular Soils that have a [cutanoxidic horizon](diagnostics.qmd#sec-diag-cutoxh) more than 30 cm thick with an upper boundary below 25 cm from the mineral soil surface.
+Perch-gley Granular Soils that have a [cutanoxidic horizon](Diagnostics.qmd#sec-diag-cutoxh) more than 30 cm thick with an upper boundary below 25 cm from the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Oxidic Perch-gley Granular Soils**
@@ -133,7 +133,7 @@ Melanic Granular Soils are less acid and more fertile than other Granular Soils.
 
 #### **NEM** {#sec-key-NEM}
 
-Melanic Granular Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Melanic Granular Soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Melanic Granular Soils**
@@ -141,7 +141,7 @@ Melanic Granular Soils that have a [mottled profile form](diagnostics.qmd#sec-di
 
 #### **NEL** {#sec-key-NEL}
 
-Soils that have a horizon that is 10 cm or more thick within 60 cm of the mineral soil surface that meets all the requirements of [allophanic soil material](diagnostics.qmd#sec-diag-alloph), but not necessarily the requirement for bulk density.
+Soils that have a horizon that is 10 cm or more thick within 60 cm of the mineral soil surface that meets all the requirements of [allophanic soil material](Diagnostics.qmd#sec-diag-alloph), but not necessarily the requirement for bulk density.
 
 ::: {style="text-align: right"}
 **Allophanic Melanic Granular Soils**
@@ -157,13 +157,13 @@ Other soils.
 
 ### **NX** - OXIDIC GRANULAR SOILS {#sec-NX}
 
-Oxidic Granular Soils have low ECEC (marginal to [Oxidic Soils](key-to-orders.qmd#sec-X)), have low fertility and are acid. Some plants may be susceptible to aluminium toxicity.
+Oxidic Granular Soils have low ECEC (marginal to [Oxidic Soils](Key-to-Orders.qmd#sec-X)), have low fertility and are acid. Some plants may be susceptible to aluminium toxicity.
 
 #### **NXMA** {#sec-key-NXMA}
 
 Oxidic Granular Soils that have *both*
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
 2.  pH of less than 5.1 in some part of the B horizon to 60 cm from the mineral soil surface.
 
 ::: {style="text-align: right"}
@@ -172,7 +172,7 @@ Oxidic Granular Soils that have *both*
 
 #### **NXM** {#sec-key-NXM}
 
-Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Other soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Oxidic Granular Soils**
@@ -180,7 +180,7 @@ Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
 
 #### **NXL** {#sec-key-NXL}
 
-Other soils that have a layer that meets the requirements of [allophanic soil material](diagnostics.qmd#sec-diag-alloph) except for bulk density, and is 10 cm or more thick, within 60 cm of the mineral soil surface.
+Other soils that have a layer that meets the requirements of [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) except for bulk density, and is 10 cm or more thick, within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Allophanic Oxidic Granular Soils**
@@ -210,7 +210,7 @@ Orthic Granular Soils are well, moderately well or imperfectly drained soils tha
 
 Orthic Granular Soils that have *both*
 
-1.  a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), *and*
+1.  a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf), *and*
 2.  pH of less than 5.1 in some part of the B horizon to 60 cm from the mineral soil surface.
 
 ::: {style="text-align: right"}
@@ -219,7 +219,7 @@ Orthic Granular Soils that have *both*
 
 #### **NOM** {#sec-key-NOM}
 
-Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+Other soils that have a [mottled profile form](Diagnostics.qmd#sec-diag-mottpf).
 
 ::: {style="text-align: right"}
 **Mottled Orthic Granular Soils**
@@ -227,7 +227,7 @@ Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
 
 #### **NOL** {#sec-key-NOL}
 
-Other soils that have a layer that meets the requirements of [allophanic soil material](diagnostics.qmd#sec-diag-alloph) except for bulk density, and is 10 cm or more thick within 60 cm of the mineral soil surface.
+Other soils that have a layer that meets the requirements of [allophanic soil material](Diagnostics.qmd#sec-diag-alloph) except for bulk density, and is 10 cm or more thick within 60 cm of the mineral soil surface.
 
 ::: {style="text-align: right"}
 **Allophanic Orthic Granular Soils**
@@ -248,5 +248,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Typic Orthic Granular Soils**
 :::
-
-{{< pagebreak >}}

@@ -4,7 +4,7 @@
 
 Anthropic Soils are soils that have been made by the direct action of people, including truncation of natural soils by earth-moving equipment, drastic mixing of natural soils so that their original character is lost, or by deposition of thick layers of organic or inorganic material. Anthropic Soils occur in land surfaces that are made by people. Their classification reflects the way in which they were made and the kinds of materials used.
 
-Note that soils that have been drastically disturbed but have been restored to the extent that they will meet the requirements of orders other than [Recent Soils](key-to-orders.qmd#sec-R) or [Raw Soils](key-to-orders.qmd#sec-W), will not be assigned to Anthropic Soils. For this reason Anthropic soils are placed late in the [Key to Orders](#sec-key) but before Recent Soils and Raw Soils.
+Note that soils that have been drastically disturbed but have been restored to the extent that they will meet the requirements of orders other than [Recent Soils](Key-to-Orders.qmd#sec-R) or [Raw Soils](Key-to-Orders.qmd#sec-W), will not be assigned to Anthropic Soils. For this reason Anthropic soils are placed late in the [Key to Orders](#sec-key) but before Recent Soils and Raw Soils.
 
 ## Correlation {#sec-cor-A}
 
@@ -179,5 +179,3 @@ Other soils.
 ::: {style="text-align: right"}
 **Earthy Fill Anthropic Soils**
 :::
-
-{{< pagebreak >}}
