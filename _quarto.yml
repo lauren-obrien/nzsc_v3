@@ -7,7 +7,8 @@ book:
   title: "New Zealand Soil Classification v3.0"
   author: "Alan. E. Hewitt"
   date: last-modified
-  
+  isbn: 978-0-478-34710-4
+  cover-image: images/cover.png
   search: false
   repo-url: https://github.com/lauren-obrien/nzsc_v3
   chapters:
