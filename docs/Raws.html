@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.198">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>New Zealand Soil Classification v3.0 - 16&nbsp; Raw Soils</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./Recents.html" rel="next">
+<link href="./Pumices.html" rel="prev">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link href="site_libs/tabwid-1.1.0/tabwid.css" rel="stylesheet">
+<link href="site_libs/tabwid-1.1.0/scrool.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Raw Soils</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">New Zealand Soil Classification v3.0</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">New Zealand Soil Classification</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Foreword.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Foreword</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Diagnostics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Diagnostic horizons and other differentiae</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Key-to-Orders.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Key to Soil Orders</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Allophanics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Allophanic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Anthropics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anthropic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Browns.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Brown Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Gleys.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Gley Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Granulars.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Granular Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Melanics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Melanic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Organics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Organic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Oxidics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Oxidic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pallics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pallic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Podzols.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Podzols</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pumices.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pumice Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Raws.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Raw Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Recents.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Recent Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Semiarids.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Semiarid Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Ultics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Ultic Soils</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Acknowledgements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Acknowledgements</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Appendix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Appendix</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-con-W" id="toc-sec-con-W" class="nav-link active" data-scroll-target="#sec-con-W">Concept of the Order</a></li>
+  <li><a href="#sec-cor-W" id="toc-sec-cor-W" class="nav-link" data-scroll-target="#sec-cor-W">Correlation</a></li>
+  <li><a href="#sec-occ-W" id="toc-sec-occ-W" class="nav-link" data-scroll-target="#sec-occ-W">Occurrence</a></li>
+  <li><a href="#sec-acc-W" id="toc-sec-acc-W" class="nav-link" data-scroll-target="#sec-acc-W">Accessory Properties of the Order</a></li>
+  <li><a href="#sec-sum-W" id="toc-sec-sum-W" class="nav-link" data-scroll-target="#sec-sum-W">Summary of Raw Soils Hierarchy</a></li>
+  <li><a href="#sec-grp-W" id="toc-sec-grp-W" class="nav-link" data-scroll-target="#sec-grp-W">Key to Groups of Raw Soils</a></li>
+  <li><a href="#sec-sub-W" id="toc-sec-sub-W" class="nav-link" data-scroll-target="#sec-sub-W">Key to Subgroups of Raw Soils</a>
+  <ul class="collapse">
+  <li><a href="#sec-WG" id="toc-sec-WG" class="nav-link" data-scroll-target="#sec-WG"><strong>WG</strong> - GLEY RAW SOILS</a></li>
+  <li><a href="#sec-WH" id="toc-sec-WH" class="nav-link" data-scroll-target="#sec-WH"><strong>WH</strong> - HYDROTHERMAL RAW SOILS</a></li>
+  <li><a href="#sec-WX" id="toc-sec-WX" class="nav-link" data-scroll-target="#sec-WX"><strong>WX</strong> - ROCKY RAW SOILS</a></li>
+  <li><a href="#sec-WS" id="toc-sec-WS" class="nav-link" data-scroll-target="#sec-WS"><strong>WS</strong> - SANDY RAW SOILS</a></li>
+  <li><a href="#sec-WF" id="toc-sec-WF" class="nav-link" data-scroll-target="#sec-WF"><strong>WF</strong> - FLUVIAL RAW SOILS</a></li>
+  <li><a href="#sec-WT" id="toc-sec-WT" class="nav-link" data-scroll-target="#sec-WT"><strong>WT</strong> - TEPHRIC RAW SOILS</a></li>
+  <li><a href="#sec-WO" id="toc-sec-WO" class="nav-link" data-scroll-target="#sec-WO"><strong>WO</strong> - ORTHIC RAW SOILS</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Raw Soils</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="sec-con-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-con-W">Concept of the Order</h2>
+<p>Raw Soils lack distinct topsoil development or are fluid at a shallow depth. They occur in environments where the development of topsoils is prevented by rockiness, by active erosion, or deposition. They include beach sands, alpine rock areas and active screes, lagoons and tidal estuaries.</p>
+</section>
+<section id="sec-cor-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-cor-W">Correlation</h2>
+<p>Raw Soils correspond in part with very weakly developed recent soils of the NZ Genetic Soil Classification, and in part with materials that were often not considered to be soil. They are either Entisols or are unclassified in Soil Taxonomy.</p>
+</section>
+<section id="sec-occ-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-occ-W">Occurrence</h2>
+<p>Raw Soils occur scattered throughout New Zealand, particularly in association with high mountains, braided rivers, beaches and tidal mudflats.</p>
+</section>
+<section id="sec-acc-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-acc-W">Accessory Properties of the Order</h2>
+<ol type="1">
+<li><em>No B horizons.</em> Pedogenetic horizons are lacking apart from a rudimentary topsoil.</li>
+<li><em>Fresh or weakly weathered.</em> Coarse fragments and sand particles are generally without coatings, although clasts in some screes may have weathering rinds.</li>
+<li><em>Inherited mineralogy.</em> The soil mineralogy is very similar to that of the parent material and a range of mineralogy classes is possible.</li>
+<li><em>In soils with a fluid subsurface layer, a continuously high water-table is present.</em> The deposition of fresh sediment may occur.</li>
+<li><em>Non-fluid soils occur in environments with active erosion or deposition.</em></li>
+<li><em>Low fertility.</em> Nitrogen in particular, is deficient.</li>
+<li><em>Erosive.</em> Most materials are unaggregated and likely to be highly erosive.</li>
+<li><em>Sparse vegetation.</em> Vegetation is either absent, sparse or patchy, often consisting of ephemeral herbaceous plants, mosses or lichens. Mangroves occur mainly on Raw Soils.</li>
+</ol>
+</section>
+<section id="sec-sum-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-sum-W">Summary of Raw Soils Hierarchy</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+
+<div class="tabwid"><style>.cl-74418e5e{table-layout:auto;width:100%;}.cl-74360ae8{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-74360afc{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-743b17cc{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-743b17d6{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-743b328e{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-743b3298{background-color:transparent;vertical-align: top;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-743b3299{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-743b329a{background-color:transparent;vertical-align: top;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-743b32a2{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class="cl-74418e5e"><thead><tr style="overflow-wrap:break-word;"><td class="cl-743b328e"><p class="cl-743b17cc"><span class="cl-74360ae8">Code</span></p></td><td class="cl-743b328e"><p class="cl-743b17cc"><span class="cl-74360ae8">Group</span></p></td><td class="cl-743b328e"><p class="cl-743b17cc"><span class="cl-74360ae8">Subgroup</span></p></td><td class="cl-743b328e"><p class="cl-743b17cc"><span class="cl-74360ae8">Example Series</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td rowspan="7" class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WG</span></p></td><td rowspan="7" class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Gley</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Fluid­sulphidic</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Takahiwai</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Sulphidic</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">­</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Fluid­saline</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">­</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Saline</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Takahiwai</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Fluid</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Paratai</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Sandy</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">­</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Typic</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">­</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WH</span></p></td><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Hydrothermal</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">Active</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WX</span></p></td><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Rocky</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Alpine</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WS</span></p></td><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Sandy</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Riverton</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WF</span></p></td><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Fluvial</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Selwyn</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360ae8">WT</span></p></td><td class="cl-743b3298"><p class="cl-743b17d6"><span class="cl-74360afc">Tephric</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td><td class="cl-743b3299"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Ngaruhoe</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-743b329a"><p class="cl-743b17d6"><span class="cl-74360ae8">WO</span></p></td><td class="cl-743b329a"><p class="cl-743b17d6"><span class="cl-74360afc">Orthic</span></p></td><td class="cl-743b32a2"><p class="cl-743b17cc"><span class="cl-74360afc">-</span></p></td><td class="cl-743b32a2"><p class="cl-743b17cc"><span class="cl-74360afc">pt. Alpine</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="sec-grp-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-grp-W">Key to Groups of Raw Soils</h2>
+<section id="sec-key-WG" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WG"><strong>WG</strong></h4>
+<p>Raw Soils that at 30&nbsp;cm or less from the mineral soil surface have either</p>
+<ol type="1">
+<li>the upper boundary of a <a href="diagnostics.qmd#sec-diag-redmh">reductimorphic horizon</a>, <em>or</em></li>
+<li>sufficient active ferrous iron to give a positive reaction to α,α’-dipyridyl at some time in the year, <em>or</em></li>
+<li>are saturated for 30 or more consecutive days in most years.</li>
+</ol>
+<div style="text-align: right">
+<p><a href="#sec-WG"><strong>GLEY RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WH" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WH"><strong>WH</strong></h4>
+<p>Other Raw Soils that have mean annual soil temperature at 30&nbsp;cm depth of at least 2.5°C more than the mean annual air temperature.</p>
+<div style="text-align: right">
+<p><a href="#sec-WH"><strong>HYDROTHERMAL RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WX" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WX"><strong>WX</strong></h4>
+<p>Other Raw Soils with a <a href="diagnostics.qmd#sec-diag-lithc">lithic</a> or <a href="diagnostics.qmd#sec-diag-lithp">paralithic contact</a> within 30&nbsp;cm of the soil surface.</p>
+<div style="text-align: right">
+<p><a href="#sec-WX"><strong>ROCKY RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WS" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WS"><strong>WS</strong></h4>
+<p>Other Raw Soils that have sand or loamy sand texture and that have less than 35% gravel (by volume) in all horizons, from the soil surface to 60&nbsp;cm depth or more.</p>
+<div style="text-align: right">
+<p><a href="#sec-WS"><strong>SANDY RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WF" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WF"><strong>WF</strong></h4>
+<p>Other Raw Soils that have <a href="diagnostics.qmd#sec-diag-fluv">fluvial features</a> and are not buried by more than 30&nbsp;cm of non­fluvial soil material.</p>
+<div style="text-align: right">
+<p><a href="#sec-WF"><strong>FLUVIAL RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WT" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WT"><strong>WT</strong></h4>
+<p>Other Raw Soils in <a href="diagnostics.qmd#sec-diag-teph">tephric soil material</a> from the soil surface to 30&nbsp;cm depth or more.</p>
+<div style="text-align: right">
+<p><a href="#sec-WT"><strong>TEPHRIC RAW SOILS</strong></a></p>
+</div>
+</section>
+<section id="sec-key-WO" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WO"><strong>WO</strong></h4>
+<p>Other Raw Soils.</p>
+<div style="text-align: right">
+<p><a href="#sec-WO"><strong>ORTHIC RAW SOILS</strong></a></p>
+</div>
+</section>
+</section>
+<section id="sec-sub-W" class="level2">
+<h2 class="anchored" data-anchor-id="sec-sub-W">Key to Subgroups of Raw Soils</h2>
+<section id="sec-WG" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WG"><strong>WG</strong> - GLEY RAW SOILS</h3>
+<p>Gley Raw Soils occur in sites that are periodically or permanently flooded. Wetness is expressed in the soil by grey colours with brownish or reddish mottles, by water saturation or is indicated by a chemical test for the presence of reduced iron.</p>
+<section id="sec-key-WGFU" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGFU"><strong>WGFU</strong></h4>
+<p>Soils that have both</p>
+<ol type="1">
+<li>moderately fluid or very fluid fluidity class at a depth of 30&nbsp;cm or less, <em>and</em></li>
+<li>pH more than 4.0 and pH in boiling hydrogen peroxide less than 3.0, in some horizon at less than 90&nbsp;cm from the mineral soil surface.</li>
+</ol>
+<div style="text-align: right">
+<p><strong>Fluid-sulphidic Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGU" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGU"><strong>WGU</strong></h4>
+<p>Other soils that have pH more than 4.0 and pH in boiling hydrogen peroxide less than 3.0, in some horizon at less than 90 cm from the mineral soil surface.</p>
+<div style="text-align: right">
+<p><strong>Sulphidic Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGFQ" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGFQ"><strong>WGFQ</strong></h4>
+<p>Other soils that within 30 cm of the mineral soil surface have both</p>
+<ol type="1">
+<li>moderately fluid or very fluid fluidity class, <em>and</em></li>
+<li>electrical conductivity of 0.8&nbsp;mS/cm.</li>
+</ol>
+<div style="text-align: right">
+<p><strong>Fluid-saline Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGQ" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGQ"><strong>WGQ</strong></h4>
+<p>Other soils that within 30&nbsp;cm of the mineral soil surface have electrical conductivity of 0.8&nbsp;mS/cm or more.</p>
+<div style="text-align: right">
+<p><strong>Saline Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGF" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGF"><strong>WGF</strong></h4>
+<p>Other soils that within 30&nbsp;cm of the mineral soil surface have moderately fluid or very fluid fluidity class.</p>
+<div style="text-align: right">
+<p><strong>Fluid Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGS" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGS"><strong>WGS</strong></h4>
+<p>Other soils that have sand or loamy sand texture and that have less than 35% gravel (by volume) in all horizons, from the soil surface to 60&nbsp;cm depth or more.</p>
+<div style="text-align: right">
+<p><strong>Sandy Gley Raw Soils</strong></p>
+</div>
+</section>
+<section id="sec-key-WGT" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WGT"><strong>WGT</strong></h4>
+<p>Other soils.</p>
+<div style="text-align: right">
+<p><strong>Typic Gley Raw Soils</strong></p>
+</div>
+</section>
+</section>
+<section id="sec-WH" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WH"><strong>WH</strong> - HYDROTHERMAL RAW SOILS</h3>
+<p>Hydrothermal Raw Soils occur in active hydrothermal areas affected by hot water.</p>
+<section id="sec-key-WHA" class="level4">
+<h4 class="anchored" data-anchor-id="sec-key-WHA"><strong>WHA</strong></h4>
+<p>(only one subgroup recognised).</p>
+<div style="text-align: right">
+<p><strong>Active Hydrothermal Raw Soils</strong></p>
+</div>
+</section>
+</section>
+<section id="sec-WX" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WX"><strong>WX</strong> - ROCKY RAW SOILS</h3>
+<p>Rocky Raw Soils occur on rock outcrops subject to erosion. The soil volume available to roots is severely restricted.</p>
+<p>No subgroups have been defined.</p>
+</section>
+<section id="sec-WS" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WS"><strong>WS</strong> - SANDY RAW SOILS</h3>
+<p>Sandy Raw Soils occur in areas of active sand erosion, transportation and deposition, most commonly as dune sands.</p>
+<p>No subgroups have been defined.</p>
+</section>
+<section id="sec-WF" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WF"><strong>WF</strong> - FLUVIAL RAW SOILS</h3>
+<p>Fluvial Raw Soils occur in sediments deposited by flowing water. They occur on land surfaces on which there is a high risk of flooding.</p>
+<p>No subgroups have been defined.</p>
+</section>
+<section id="sec-WT" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WT"><strong>WT</strong> - TEPHRIC RAW SOILS</h3>
+<p>Tephric Raw Soils occur in unconsolidated sediments of volcanic origin including ash, cinders, lapilli, pumice and other pyroclastic material.</p>
+<p>No subgroups have been defined.</p>
+</section>
+<section id="sec-WO" class="level3">
+<h3 class="anchored" data-anchor-id="sec-WO"><strong>WO</strong> - ORTHIC RAW SOILS</h3>
+<p>Orthic Raw Soils occur in land that is being eroded, on rock outcrops or land that has received sediment emplaced primarily by slope processes.</p>
+<p>No subgroups have been defined.</p>
+<div style="page-break-after: always;"></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Pumices.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Pumice Soils</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Recents.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Recent Soils</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
