@@ -32,8 +32,7 @@ Allophanic Soils occur predominantly in North Island volcanic ash, and in the we
 ## Summary of Allophanic Soils Hierarchy {#sec-sum-L}
 
 ```{r}
-#| label: tbl-ord-L-hier
- 
+
 library(flextable)
 
 table_L <- data.frame(
