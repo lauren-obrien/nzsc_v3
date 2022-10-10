@@ -1,0 +1,58 @@
+# Appendix {#sec-appendix}
+
+The system for designating the soils consists of letters only. This method has been adopted to make for easier insertion of new subgroups, and to make the codes easier to remember.
+
+The following is a list of the use which has been made of each code letter of the soil classification, the level at which it has been used, and the meanings.
+
+```{r}
+library(flextable)
+
+table_App1 <- data.frame('Code' = LETTERS,
+                         'Order' = c('Anthropic', 'Brown', '', '', 'Melanic', '', 'Gley',
+                         '', '', '', '', 'Allophanic', 'Pumice', 'Granular', 'Organic', 'Pallic',
+                         '', 'Recent', 'Semiarid', '', 'Ultic', '', 'Raw', 'Oxidic', '', 'Podzol'),
+                         'Group' = c('Acid, Aged', 'Brown', '', 'Densipan', 'Melanic, Albic',
+                                     'Firm, Fibric, Fill, Fluvial', 'Gley, groundwater-gley',
+                                     'Humic, Hydrothermal', 'Immature, Impeded', 'Argillic', '',
+                                     'Allophanic, Laminar, Litter', 'Mesic, Mafic, Mixed',
+                                     'Nodular', 'Orthic', 'Pallic, Perch-gley', '',
+                                     'Recent, Refuse, Rendzic', 'Sandy', 'Truncated, Tephric',
+                                     'Sulphuric, Duric', 'Vertic', '', 'Oxidic, Pan, Rocky, Fragic',
+                                     'Yellow', 'Solonetzic'),
+                         'Subgroup' = c('Albic, Acid, Aged, Artifact',
+                                        'Brown, Buried',
+                                        'Calcareous, Concretionary,\n Cemented, Compacted',
+                                        'Pedal',
+                                        'Melanic, Earthy',
+                                        'Fluid',
+                                        'Gley, Gleyed, Magnesic, Granular',
+                                        'Thick, Humose',
+                                        'Immature, Inactive, Ironstone',
+                                        'Argillic',
+                                        'Alkaline',
+                                        'Allophanic, Laminar',
+                                        'Mottled, Yellow',
+                                        'Nodular, Sodic, Stony',
+                                        'Peaty, Orthic',
+                                        'Pallic, Placic, Pumice, Perch-gleyed',
+                                        'Saline, Ortstein',
+                                        'Recent',
+                                        'Sphagnic, Sandy, Stony',
+                                        'Typic, Tailings',
+                                        'Sulphidic, Humus-pan, Duric',
+                                        'Active, Vitric, Vertic',
+                                        'Weathered, Welded, Wet',
+                                        'Pan, Fragic',
+                                        'Yellow, Ultic',
+                                        'Podzol, Podzolic, Silt')
+                                                               )
+
+ft_A1 <- flextable(table_App1)
+ft_A1 <- bold(ft_A1, part = 'head')
+ft_A1 <- bold(ft_A1, j = 1)
+ft_A1 <- set_table_properties(ft_A1, layout = "autofit", width = 1)
+ft_A1
+
+```
+
+{{< pagebreak >}}

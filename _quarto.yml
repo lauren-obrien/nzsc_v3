@@ -33,8 +33,9 @@ book:
     - Semiarids.qmd
     - Ultics.qmd
     - Acknowledgements.qmd
-    - Appendix.qmd
     - references.qmd
+    - Appendix.qmd
+
 
 
 bibliography: NZSC_reference_list_3e.bib
