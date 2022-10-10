@@ -1,0 +1,330 @@
+# Melanic Soils {#sec-ord-E}
+
+## Concept of the Order {#sec-con-E}
+
+Melanic Soils are soils with high base saturations, well structured, very dark A horizons, and with weakly alkaline or weakly acid subsurface horizons. Their parent materials are rich in calcium and/or magnesium.
+
+## Correlation {#sec-cor-E}
+
+The Melanic Soils include the rendzinas and rendzic intergrades to yellow-grey earths and yellow-brown earths. They also include the weakly weathered and drier brown-granular loams and clays of the NZ Genetic Soil Classification. Most correlate with Mollisols and a few with Vertisols and Inceptisols of Soil Taxonomy.
+
+## Occurrence {#sec-occ-E}
+
+Melanic Soils are scattered throughout New Zealand in association with calcareous or basaltic rocks.
+
+## Accessory Properties of the Order {#sec-acc-E}
+
+1.  *Swelling clays.* Most soils have smectite, or minerals with interstratifications of smectite, in the clay mineral assemblage. Melanic Soils usually have a Smectitic, Illitic or Kandic mineralogy class.
+2.  *High base saturations.* Base saturations are usually more than 50%, and KCl-extractable aluminium values are usually very low.
+3.  *Stable structure.* Structural stability of topsoils is high with relatively large amounts of organic carbon intimately associated with clay minerals. The soils are likely to have relatively high resistance to structural damage under heavy cropping unless organic matter is reduced significantly. The porosity is stabilised by divalent ion/organic matter/ clay complexes.
+4.  *High shrink/swell.* The soil materials are sticky and plastic. They are expected to have significant shrink/swell potential, expressed in high coefficient of linear expandibility values. This is reflected in strong polyhedral, blocky or prismatic pedality. Pretentions are moderate to high.
+5.  *Fertile.* Exchangeable calcium and magnesium values are high, particularly at the base of profile.
+6.  *Parent materials.* The soils are derived from calcareous rocks or from mafic or ultramafic rocks (e.g. basalt or peridotite).
+7.  *Deep rooting.* Except for shallow soils on rock or soils affected by high water-tables, potential rooting depths are relatively large.
+8.  *Biologically active.* Carbon/nitrogen ratios are low (except in areas with very high precipitation).
+
+## Summary of Melanic Soils Hierarchy {#sec-sum-E}
+
+```{r}
+library(flextable)
+
+table_E <- data.frame(
+  'Code' = c(rep('EV', 4),
+             rep('EP', 3),
+             rep('ER', 4),
+             rep('EM', 3),
+             rep('EO', 8)),
+  'Group' = c(rep('Vertic', 4),
+              rep('Perch-gley', 3),
+              rep('Rendzic', 4),
+              rep('Mafic', 3),
+              rep('Orthic', 8)),
+  'Subgroup' = c('Mottled-calcareous', 'Mottled', 'Calcareous', 'Typic',
+                 'Vertic', 'Argillic', 'Typic',
+                 'Peaty', 'Mottled', 'Weathered', 'Typic',
+                 'Magnesic', 'Mottled', 'Typic',
+                 'Mottled-calcareous', 'Argillic-calcareous', 'Pedal-calcareous',
+                   'Calcareous', 'Mottled-argillic', 'Mottled', 'Argillic',
+                   'Typic'),
+  'Example_Series' = c('-', 'pt. Waiareka', 'Te Aneraki', 'Waiareka',
+                       'Awapuni', 'Okoia', '-',
+                       'Chalky', '-', 'Te Matai', 'Oamaru',
+                       'Dun', 'pt.Awapuku', 'Rapaki',
+                       'pt. Waikakahi', 'Kauana', 'pt. Waikakahi', 'pt. Pikikiruna',
+                         '-', '-', 'Kaihiku', 'Bishopdale')
+) 
+
+ft_E <- flextable(table_E)
+ft_E <- bold(ft_E, part = 'head')
+ft_E <- merge_v(ft_E, 1)
+ft_E <- merge_v(ft_E, 2)
+ft_E <- valign(ft_E, j = c(1,2), valign = 'top')
+ft_E <- bold(ft_E, j = 1)
+ft_E <- set_table_properties(ft_E, layout = "autofit", width = 1)
+ft_E <- set_header_labels(ft_E, 
+                          'Example_Series' = 'Example Series')
+ft_E
+```
+
+## Key to Groups of Melanic Soils {#sec-grp-E}
+
+#### **EV** {#sec-key-EV}
+
+Melanic Soils that have both
+
+1.  *Either*
+    (a) cracks at least 4 mm wide in some part, either in the B horizon and infilled with A horizon material, or open to a depth of 30 cm or more from the mineral soil surface, *or*
+    (b) coefficient of linear extensibility of 0.09 or more with moderate or strong blocky or prismatic pedality in the major part of the B horizon, *and*
+2.  No [redox segregations](diagnostics.qmd#sec-diag-rsegs) within 30 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+[**VERTIC MELANIC SOILS**](#sec-EV)
+:::
+
+#### **EP** {#sec-key-EP}
+
+Other soils that have *either*
+
+1.  a [peaty topsoil](diagnostics.qmd#sec-diag-pts) or a [gley profile form](diagnostics.qmd#sec-diag-gleypf), *and*
+2.  [perch-gley features](diagnostics.qmd#sec-diag-pgley).
+
+::: {style="text-align: right"}
+[**PERCH-GLEY MELANIC SOILS**](#sec-EP)
+:::
+
+#### **ER** {#sec-key-ER}
+
+Other soils that have limestone or other calcareous material either in the form of a [lithic](diagnostics.qmd#sec-diag-lithc) or [paralithic contact](diagnostics.qmd#sec-diag-plith), or as an extremely gravelly layer (70% or more by volume) in the form of rock rubble, with an upper boundary at 60 cm or less and which continues to more than 90 cm from the mineral soil surface.
+
+::: {style="text-align: right"}
+[**RENDZIC MELANIC SOILS**](#sec-ER)
+:::
+
+#### **EM** {#sec-key-EM}
+
+Other soils that, in a subhorizon of the B horizon at 60 cm from the mineral soil surface, or at the base of the B if shallower, have
+
+1.  matrix colour value 4 or less and chroma 3 or more, *or*
+2.  5% (by volume) or more gravel that consist mainly of mafic or ultramafic rocks (but not tuffaceous greywacke), *or*
+3.  an exchangeable calcium/magnesium ratio of 0.2 or less and exchangeable magnesium of 1.5 cmol/kg or more.
+
+::: {style="text-align: right"}
+[**MAFIC MELANIC SOILS**](#sec-EM)
+:::
+
+#### **EO** {#sec-key-EO}
+
+Other soils.
+
+::: {style="text-align: right"}
+[**ORTHIC MELANIC SOILS**](#sec-EO)
+:::
+
+## Key to Subgroups of Melanic Soils {#sec-sub-E}
+
+### **EV** - VERTIC MELANIC SOILS {#sec-EV}
+
+Vertic Melanic Soils occur in clayey soil materials dominated by clay minerals with high capacity to shrink on drying and swell on rewetting.
+
+#### **EVMC** {#sec-key-EVMC}
+
+Vertic melanic soils that have both
+
+1.  [redox segregations](diagnostics.qmd#sec-diag-rsegs) within 60 cm of the mineral soil surface, *and*
+2.  a [calcareous horizon](diagnostics.qmd#sec-diag_calch) within 90 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Mottled-calcareous Vertic Melanic Soils**
+:::
+
+#### **EVM** {#sec-key-EVM}
+
+Other soils that have [redox segregations](diagnostics.qmd#sec-diag-rsegs) within 60 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Mottled Vertic Melanic Soils**
+:::
+
+#### **EVC** {#sec-key-EVC}
+
+Other soils with a [calcareous horizon](diagnostics.qmd#sec-diag-calch) within 90 cm of the mineral soil surface.
+
+::: {style="text-align: right"}
+**Calcareous Vertic Melanic Soils**
+:::
+
+#### **EVT** {#sec-key-EVT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Vertic Melanic Soils**
+:::
+
+### **EP** - PERCH-GLEY MELANIC SOILS {#sec-EP}
+
+Perch-gley Melanic Soils occur in sites that are periodically saturated (unless artificially drained). Wetness and associated reducing conditions are indicated by grey colours in horizons subjacent to the topsoil, and is caused by perching of water on a slowly permeable subsurface layer, although a groundwater-table may also be present.
+
+#### **EPV** {#sec-key-EPV}
+
+Perch-gley Melanic Soils that have either
+
+1.  cracks at least 4 mm wide in some part, either in the B horizon and infilled with A horizon material, or open to a depth of 30 cm or more, from the mineral soil surface, or
+2.  coefficient of linear expandability of 0.09 or more with moderate or strong, blocky or prismatic pedality in the major part of the B horizon.
+
+::: {style="text-align: right"}
+**Vertic Perch-gley Melanic Soils**
+:::
+
+#### **EPJ** {#sec-key-EPJ}
+
+Other soils with an [argillic horizon](diagnostics.qmd#sec-diag-argh).
+
+::: {style="text-align: right"}
+**Argillic Perch-gley Melanic Soils**
+:::
+
+#### **EPT** {#sec-key-EPT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Perch-gley Melanic Soils**
+:::
+
+### **ER** - RENDZIC MELANIC SOILS {#sec-ER}
+
+Rendzic Melanic Soils occur in soils in which limestone or calcareous sedimentary rocks or rock debris occur at shallow depths.
+
+#### **ERO** {#sec-key-ERO}
+
+Rendzic Melanic Soils that have a [peaty topsoil](diagnostics.qmd#sec-diag-pts).
+
+::: {style="text-align: right"}
+**Peaty Rendzic Melanic Soils**
+:::
+
+#### **ERM** {#sec-key-ERM}
+
+Rendzic Melanic Soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Rendzic Melanic Soils**
+:::
+
+#### **ERW** {#sec-key-ERW}
+
+Other soils that have a [weathered-B](diagnostics.qmd#sec-diag-bw) or [cutanic horizon](diagnostics.qmd#sec-diag-cuth) 10 cm or more thick.
+
+::: {style="text-align: right"}
+**Weathered Rendzic Melanic Soils**
+:::
+
+#### **ERT** {#sec-key-ERT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Rendzic Melanic Soils**
+:::
+
+### **EM** - MAFIC MELANIC SOILS {#sec-EM}
+
+Mafic Melanic Soils occur in soil materials weathered from ultrabasic, basic or intermediate igneous rocks or tuffs. They have relatively high proportions of dark-coloured magnesium- and iron-rich (mafic) silicate minerals.
+
+#### **EMG** {#sec-key-EMG}
+
+Mafic Melanic Soils that have, in some part of the B horizon to 60 cm from the mineral soil surface, either
+
+1.  5% (by volume) or more gravel that consist mainly of ultramafic rocks, *or*
+2.  have an exchangeable calcium/magnesium ratio of 0.2 or less and exchangeable magnesium of 1.5 cmol/kg or more.
+
+::: {style="text-align: right"}
+**Magnesic Mafic Melanic Soils**
+:::
+
+#### **EMM** {#sec-key-EMM}
+
+Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Mafic Melanic Soils**
+:::
+
+#### **EMT** {#sec-key-EMT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Mafic Melanic Soils**
+:::
+
+### **EO** - ORTHIC MELANIC SOILS {#sec-EO}
+
+Orthic Melanic Soils occur in soil materials containing calcium carbonate or that have high calcium contents.
+
+#### **EOMC** {#sec-key-EOMC}
+
+Orthic Melanic Soils that have both a [calcareous horizon](diagnostics.qmd#sec-diag-calch) with an upper surface at 90 cm or less from the mineral soil surface, and a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled-calcareous Orthic Melanic Soils**
+:::
+
+#### **EOJC** {#sec-key-EOJC}
+
+Other soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh) and a [calcareous horizon](diagnostics.qmd#sec-diag-calch) with an upper surface at 90 cm or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Argillic-calcareous Orthic Melanic Soils**
+:::
+
+#### **EODC** {#sec-key-EODC}
+
+Other soils that have a moderately or strongly pedal weathered-B horizon 15 cm or more thick occurring immediately beneath the A horizon, and a [calcareous horizon](diagnostics.qmd#sec-diag-calch) with an upper surface at 90 cm or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Pedal-calcareous Orthic Melanic Soils**
+:::
+
+#### **EOC** {#sec-key-EOC}
+
+Other soils that have a [calcareous horizon](diagnostics.qmd#sec-diag-calch) with an upper surface at 90 cm or less from the mineral soil surface.
+
+::: {style="text-align: right"}
+**Calcareous Orthic Melanic Soils**
+:::
+
+#### **EOMJ** {#sec-key-EOMJ}
+
+Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf), and an [argillic horizon](diagnostics.qmd#sec-diag-argh).
+
+::: {style="text-align: right"}
+**Mottled-argillic Orthic Melanic Soils**
+:::
+
+#### **EOM** {#sec-key-EOM}
+
+Other soils that have a [mottled profile form](diagnostics.qmd#sec-diag-mottpf).
+
+::: {style="text-align: right"}
+**Mottled Orthic Melanic Soils**
+:::
+
+#### **EOJ** {#sec-key-EOJ}
+
+Other soils that have an [argillic horizon](diagnostics.qmd#sec-diag-argh).
+
+::: {style="text-align: right"}
+**Argillic Orthic Melanic Soils**
+:::
+
+#### **EOT** {#sec-key-EOT}
+
+Other soils.
+
+::: {style="text-align: right"}
+**Typic Orthic Melanic Soils**
+:::
+
+{{< pagebreak >}}

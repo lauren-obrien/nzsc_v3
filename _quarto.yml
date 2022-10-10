@@ -6,7 +6,7 @@ project:
 book:
   title: "New Zealand Soil Classification v3.0"
   author: "Alan. E. Hewitt"
-  date: last-modified
+  date: "2022-10-10"
   isbn: 978-0-478-34710-4
   cover-image: images/cover.png
   search: false
@@ -47,7 +47,6 @@ format:
       dark: slate
     number-sections: false
     citations-hover: true
-    date-modified: last-modified
   epub:
     number-sections: false
 
