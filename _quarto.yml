@@ -8,8 +8,14 @@ book:
   date: "2022-10-10"
   isbn: 978-0-478-34710-4
   cover-image: images/cover.png
-  search: false
+  search: true
   repo-url: https://github.com/lauren-obrien/nzsc_v3
+  google-analytics:
+    tracking-id: "G-23KNLYGHHS"
+    anonymize-ip: true
+  cookie-consent: 
+    type: express
+    style: headline
   chapters:
     - index.qmd
     - Foreword.qmd
