@@ -48,7 +48,7 @@ table_U <- data.frame(
                        'Waikare, Okaka', 'Rangiora', 'Riponui',
                        'pt. Tangitiki', 'Omu',
                        'Tangitiki', 'pt. Tangitiki', 'pt. Red Hill',
-                       '-', 'Tennyson', 'Puhoi', 'Opouri', 'Kairui', 'Warkworth')
+                       '-', 'Tennyson', 'Puhoi', 'Opouri', 'Kainui', 'Warkworth')
 ) 
 
 ft_U <- flextable(table_U)
