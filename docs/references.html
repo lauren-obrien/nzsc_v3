@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.134">
+<meta name="generator" content="quarto-1.3.272">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -116,11 +116,16 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">References</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">References</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -128,26 +133,27 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">New Zealand Soil Classification v3.0</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">New Zealand Soil Classification</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">New Zealand Soil Classification</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -263,6 +269,7 @@ cookieconsent.run({
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -272,7 +279,7 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">References</span></h1>
+<h1 class="title"><span class="chapter-title">References</span></h1>
 </div>
 
 
@@ -287,144 +294,144 @@ cookieconsent.run({
 
 </header>
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-avery1980" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-avery1980" class="csl-entry" role="listitem">
 Avery, B. W. 1980. <em>Soil Classification for England and Wales (Higher
 Categories)</em>. Soil Survey Technical Monograph 14. Rothamstead
 Experimental Station, Harpenden, England: Soil Survey of England; Wales.
 </div>
-<div id="ref-blakemore1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-blakemore1987" class="csl-entry" role="listitem">
 Blakemore, L. C., P. L. Searle, and B. K. Daly. 1987. <span>“Methods for
 Chemical Analysis of Soils.”</span> Lower Hutt, New Zealand. <a href="http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-SBSR-80">http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-SBSR-80</a>.
 </div>
-<div id="ref-childs1981" class="csl-entry" role="doc-biblioentry">
+<div id="ref-childs1981" class="csl-entry" role="listitem">
 Childs, C. W. 1981. <span>“Field Tests for Ferrous Iron and
 Ferric-Organic Complexes (on Exchange Sites or in Water-Soluble Forms)
 in Soils.”</span> <em>Soil Research</em> 19 (2): 175–80. <a href="https://doi.org/10.1071/SR9810175">https://doi.org/10.1071/SR9810175</a>.
 </div>
-<div id="ref-childs1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-childs1990" class="csl-entry" role="listitem">
 Childs, C. W., R. W. P. Palmer, and C. W. Ross. 1990. <span>“Thick Iron
 Oxide Pans in Soils of Taranaki, New Zealand.”</span> <em>Soil
 Research</em> 28 (2): 245–57. <a href="https://doi.org/10.1071/SR9900245">https://doi.org/10.1071/SR9900245</a>.
 </div>
-<div id="ref-clayden1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-clayden1990" class="csl-entry" role="listitem">
 Clayden, B., B. K. Daly, R. Lee, and G. Mew. 1990. <span>“The Nature,
 Occurrence, and Genesis of Placic Horizons.”</span> In <em>Fifth
 International Soil Correlation Meeting (ISCOM)</em>, 88–104. Lincoln,
 Nebraska, USA: USDA, Soil Conservation Service.
 </div>
-<div id="ref-clayden1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-clayden1989" class="csl-entry" role="listitem">
 Clayden, B., and A. E. Hewitt. 1989. <span>“Horizon Notation for New
 Zealand Soils.”</span> Lower Hutt, New Zealand. <a href="https://landcareresearch.on.worldcat.org/oclc/154214630">https://landcareresearch.on.worldcat.org/oclc/154214630</a>.
 </div>
-<div id="ref-cline1949" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cline1949" class="csl-entry" role="listitem">
 Cline, Marlin G. 1949. <span>“Basic Principles of Soil
 Classification.”</span> <em>Soil Science</em> 67 (2): 81–91. <a href="https://doi.org/10.1097/00010694-194902000-00002">https://doi.org/10.1097/00010694-194902000-00002</a>.
 </div>
-<div id="ref-eden1992" class="csl-entry" role="doc-biblioentry">
+<div id="ref-eden1992" class="csl-entry" role="listitem">
 Eden, D. N. 1992. <span>“A Standard Method for Determining Volcanic
 Glass Content in Andisols.”</span> <a href="https://doi.org/10.7931/DL1-DLRSR-2">https://doi.org/10.7931/DL1-DLRSR-2</a>.
 </div>
-<div id="ref-fieldes1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fieldes1966" class="csl-entry" role="listitem">
 Fieldes, Morice, and K. W. Perrott. 1966. <span>“The Nature of Allophane
 in Soils, Part 3 - Rapid Field and Laboratory Test for
 Allophane.”</span> <em>New Zealand Journal of Science</em> 9: 623–29.
 </div>
-<div id="ref-froggatt1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-froggatt1990" class="csl-entry" role="listitem">
 Froggatt, P. C., and D. J. Lowe. 1990. <span>“A Review of Late
 Quaternary Silicic and Some Other Tephra Formations from New Zealand:
 Their Stratigraphy, Nomenclature, Distribution, Volume, and Age.”</span>
 <em>New Zealand Journal of Geology and Geophysics</em> 33 (1): 89–109.
 <a href="https://doi.org/10.1080/00288306.1990.10427576">https://doi.org/10.1080/00288306.1990.10427576</a>.
 </div>
-<div id="ref-gradwell1979" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gradwell1979" class="csl-entry" role="listitem">
 Gradwell, M. W., and K. S. Birrell. 1979. <span>“C. Methods for Physical
 Analysis of Soils.”</span> Lower Hutt, New Zealand. <a href="https://doi.org/10.7931/DL1-SBSR-10C">https://doi.org/10.7931/DL1-SBSR-10C</a>.
 </div>
-<div id="ref-griffiths1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-griffiths1991" class="csl-entry" role="listitem">
 Griffiths, E. 1991. <span>“Assessing Soil Permeability Class from Soil
 Morphology.”</span> Havelock North, New Zealand. <a href="http://digitallibrary.landcareresearch.co.nz.landcareresearch.idm.oclc.org/digital/collection/p20022coll26/id/2/rec/23">http://digitallibrary.landcareresearch.co.nz.landcareresearch.idm.oclc.org/digital/collection/p20022coll26/id/2/rec/23</a>.
 </div>
-<div id="ref-hewitt1982" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hewitt1982" class="csl-entry" role="listitem">
 Hewitt, A. E. 1982. <span>“Decisions in the Establishment of Soil
 Series.”</span> PhD thesis, Ithaca, New York, USA. <a href="https://landcareresearch.on.worldcat.org/oclc/1129896729">https://landcareresearch.on.worldcat.org/oclc/1129896729</a>.
 </div>
-<div id="ref-hewitt1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hewitt1984" class="csl-entry" role="listitem">
 ———. 1984. <span>“The NZ Soil Classification Revision: Taylor’s Patch
 Reworked.”</span> <em>New Zealand Soil News</em> 32 (6): 220–29. <a href="https://doi.org/10.7931/DL30-1984_VOL32_6_ORC">https://doi.org/10.7931/DL30-1984_VOL32_6_ORC</a>.
 </div>
-<div id="ref-hewitt1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hewitt1989" class="csl-entry" role="listitem">
 ———. 1989. <span>“New Zealand Soil Classification (v. 2.0).”</span>
 Dunedin, New Zealand.
 </div>
-<div id="ref-johnson1963" class="csl-entry" role="doc-biblioentry">
+<div id="ref-johnson1963" class="csl-entry" role="listitem">
 Johnson, William M. 1963. <span>“The Pedon and the Polypedon.”</span>
 <em>Soil Science Society of America Journal</em> 27 (2): 212–15. <a href="https://doi.org/10.2136/sssaj1963.03615995002700020034x">https://doi.org/10.2136/sssaj1963.03615995002700020034x</a>.
 </div>
-<div id="ref-laffan1979" class="csl-entry" role="doc-biblioentry">
+<div id="ref-laffan1979" class="csl-entry" role="listitem">
 Laffan, M. D. 1979. <span>“A Comment on the Identification of the Lithic
 Contact (USDA Soil Taxonomy) in Soils Formed from Greywacke in the
 Marlborough Sounds.”</span> <em>New Zealand Soil News</em> 27 (2):
 70–71. <a href="https://doi.org/10.7931/DL30-1979_VOL27_2_ORC">https://doi.org/10.7931/DL30-1979_VOL27_2_ORC</a>.
 </div>
-<div id="ref-leamy1983" class="csl-entry" role="doc-biblioentry">
+<div id="ref-leamy1983" class="csl-entry" role="listitem">
 Leamy, M. L., B. Clayden, and A. E. Hewitt. 1983. <span>“Soil
 Classification in the n. Z. Soil Bureau.”</span> <em>New Zealand Soil
 News</em> 31 (6): 183–85. <a href="https://doi.org/10.7931/DL30-1983_VOL31_6_ORC">https://doi.org/10.7931/DL30-1983_VOL31_6_ORC</a>.
 </div>
-<div id="ref-mclaren1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mclaren1990" class="csl-entry" role="listitem">
 McLaren, R. G., and K. C. Cameron. 1990. <em>Soil Science: An
 Introduction to the Properties and Management of New Zealand Soils</em>.
 Auckland; New York: Oxford University Press. <a href="https://landcareresearch.on.worldcat.org/oclc/22444423">https://landcareresearch.on.worldcat.org/oclc/22444423</a>.
 </div>
-<div id="ref-mcqueen1981" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mcqueen1981" class="csl-entry" role="listitem">
 McQueen, David J. 1981. <span>“A New Method of Aggregate Stability
 Measurement.”</span> <em>New Zealand Soil News</em> 29 (4): 127–32. <a href="https://doi.org/10.7931/DL30-1981_VOL29_4_ORC">https://doi.org/10.7931/DL30-1981_VOL29_4_ORC</a>.
 </div>
-<div id="ref-milne1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-milne1991" class="csl-entry" role="listitem">
 Milne, J. D. G., B. Clayden, P. L. Singleton, and A. D. Wilson. 1991.
 <em>Soil Description Handbook</em>. 1st ed. Lower Hutt, New Zealand: New
 Zealand Department of Scientific; Industrial Research. <a href="https://landcareresearch.on.worldcat.org/oclc/1255392569">https://landcareresearch.on.worldcat.org/oclc/1255392569</a>.
 </div>
-<div id="ref-munsellcolorcompany1975" class="csl-entry" role="doc-biblioentry">
+<div id="ref-munsellcolorcompany1975" class="csl-entry" role="listitem">
 Munsell Color Company. 1975. <em>Munsell Soil Color Charts</em>.
 Baltimore, M.D.: Munsell Color Company.
 </div>
-<div id="ref-parfitt1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-parfitt1984" class="csl-entry" role="listitem">
 Parfitt, R. L. 1984. <span>“A Proposed Classification of Yellow-Brown
 Loams and Yellow-Brown Pumice Soils. I, the Boundary with Other Soils at
 the Highest Category.”</span> Lower Hutt, New Zealand. <a href="http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-LAB-CM05">http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-LAB-CM05</a>.
 </div>
-<div id="ref-parfitt1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-parfitt1991" class="csl-entry" role="listitem">
 Parfitt, R. L., and B. Clayden. 1991. <span>“Andisols <span></span> the
 Development of a New Order in Soil Taxonomy.”</span> <em>Geoderma</em>
 49 (3): 181–98. <a href="https://doi.org/10.1016/0016-7061(91)90075-5">https://doi.org/10.1016/0016-7061(91)90075-5</a>.
 </div>
-<div id="ref-soilsurveystaff1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-soilsurveystaff1999" class="csl-entry" role="listitem">
 Soil Survey Staff. 1999. <em>Soil Taxonomy: A Basic System of Soil
 Classification for Making and Interpreting Soil Surveys</em>. 2nd ed.
 Agriculture Handbook 436. Washington D.C., USA: United States Department
 of Agriculture. <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/">https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/</a>.
 </div>
-<div id="ref-taylor1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-taylor1948" class="csl-entry" role="listitem">
 Taylor, N. H. 1948. <span>“Soil Map of New Zealand.”</span> <a href="https://doi.org/10.7931/hdbc-9662">https://doi.org/10.7931/hdbc-9662</a>.
 </div>
-<div id="ref-taylor1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-taylor1957" class="csl-entry" role="listitem">
 Taylor, N. H., and J. E. Cox. 1957. <span>“The Soil Pattern of New
 Zealand.”</span> Wellington, New Zealand.
 </div>
-<div id="ref-taylor1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-taylor1962" class="csl-entry" role="listitem">
 Taylor, N. H., and I. J. Pohlen. 1962. <span>“Classification of New
 Zealand Soils.”</span> In, 15–45. 26(1). Wellington, New Zealand: New
 Zealand Department of Scientific; Industrial Research. <a href="https://doi.org/10.7931/dl1-sbb-026-1">https://doi.org/10.7931/dl1-sbb-026-1</a>.
 </div>
-<div id="ref-whitton1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-whitton1989" class="csl-entry" role="listitem">
 Whitton, J. S., and Cyril Walter Childs. 1989. <span>“The New Zealand
 Experience in Applying the Soil Taxonomy (1975) Key to Mineralogy
 Classes, and, a Proposed Revision of the Key to Mineralogy
 Classes.”</span> Lower Hutt, New Zealand. <a href="http://doi.org/10.7931/DL1-LAB-CM14">http://doi.org/10.7931/DL1-LAB-CM14</a>.
 </div>
-<div id="ref-wilson1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wilson1987" class="csl-entry" role="listitem">
 Wilson, A. D. 1987. <span>“Classification of Red and Brown Loams and
 Brown Granular Soils.”</span> Lower Hutt, New Zealand.
 </div>
@@ -575,9 +582,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -782,7 +803,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

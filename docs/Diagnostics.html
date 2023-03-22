@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.134">
+<meta name="generator" content="quarto-1.3.272">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -108,7 +108,6 @@ cookieconsent.run({
 });
 </script> 
   
-<link href="site_libs/tabwid-1.1.2/tabwid.css" rel="stylesheet">
 
 
 </head>
@@ -117,11 +116,16 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Diagnostic horizons and other differentiae</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Diagnostics.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons and other differentiae</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -129,26 +133,27 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">New Zealand Soil Classification v3.0</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">New Zealand Soil Classification</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">New Zealand Soil Classification</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -264,6 +269,7 @@ cookieconsent.run({
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -332,7 +338,7 @@ cookieconsent.run({
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 
-<div class="tabwid"><style>.cl-c4568ab6{table-layout:auto;width:100%;}.cl-c44b4c46{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-c44b4c50{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-c44fa5a2{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-c44fc5aa{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c44fc5b4{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-c4568ab6"><tbody><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c46">Horizons, Pans and</span><br><span class="cl-c44b4c46"> Layers:</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c46">Soil materials and</span><br><span class="cl-c44b4c46"> Contacts:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Argillic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Allophanic soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Brittle-B horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Lithic contact</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Calcareous horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Organic soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Cutanic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Paralithic contact</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Cutanoxidic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Tephric soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Densipan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Vitric soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Duripan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Distinct topsoil</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c46">Profile Forms:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Fragipan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Gley profile form</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Humus-pan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Mottled profile form</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Ironstone-pan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Nodular horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c46">Features:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Ortstein-pan</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Fluvial features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Oxidic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Perch-gley features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Peaty topsoil</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Sodic features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Placic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Podzolic-B horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c46">Other Differentiae:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Reductimorphic horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Crumb structure</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Redox-mottled horizon</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Reactive-aluminium test</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Slowly permeable layer</span></p></td><td class="cl-c44fc5aa"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Redox segregations</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c44fc5b4"><p class="cl-c44fa5a2"><span class="cl-c44b4c50">Weathered-B horizon</span></p></td><td class="cl-c44fc5b4"><p class="cl-c44fa5a2"><span class="cl-c44b4c50"></span></p></td></tr></tbody></table></div>
+<div class="tabwid"><style>.cl-5c30b6ea{table-layout:auto;width:100%;}.cl-5c2585d6{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-5c2585ea{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-5c2a003e{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-5c2a1c68{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5c2a1c69{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-5c30b6ea"><tbody><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585d6">Horizons, Pans and</span><br><span class="cl-5c2585d6"> Layers:</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585d6">Soil materials and</span><br><span class="cl-5c2585d6"> Contacts:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Argillic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Allophanic soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Brittle-B horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Lithic contact</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Calcareous horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Organic soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Cutanic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Paralithic contact</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Cutanoxidic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Tephric soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Densipan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Vitric soil material</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Duripan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Distinct topsoil</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585d6">Profile Forms:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Fragipan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Gley profile form</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Humus-pan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Mottled profile form</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Ironstone-pan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Nodular horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585d6">Features:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Ortstein-pan</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Fluvial features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Oxidic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Perch-gley features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Peaty topsoil</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Sodic features</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Placic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Podzolic-B horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585d6">Other Differentiae:</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Reductimorphic horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Crumb structure</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Redox-mottled horizon</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Reactive-aluminium test</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Slowly permeable layer</span></p></td><td class="cl-5c2a1c68"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Redox segregations</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5c2a1c69"><p class="cl-5c2a003e"><span class="cl-5c2585ea">Weathered-B horizon</span></p></td><td class="cl-5c2a1c69"><p class="cl-5c2a003e"><span class="cl-5c2585ea"></span></p></td></tr></tbody></table></div>
 </div>
 </div>
 <p>The following diagnostic horizons and soil characteristics have been modified from Soil Taxonomy <span class="citation" data-cites="soilsurveystaff1999">Soil Survey Staff (<a href="references.html#ref-soilsurveystaff1999" role="doc-biblioref">1999</a>)</span>: <a href="#sec-diag-argh">argillic horizon</a>, <a href="#sec-diag-dpan">duripan</a>, <a href="#sec-diag-fpan">fragipan</a>, <a href="#sec-diag-lithc">lithic contact</a>, <a href="#sec-diag-plith">paralithic contact</a> and <a href="#sec-diag-plac">placic horizon</a>.</p>
@@ -641,7 +647,7 @@ cookieconsent.run({
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 
-<div class="tabwid"><style>.cl-c474067c{table-layout:auto;width:100%;}.cl-c469b12c{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-c469b140{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-c46d9f9e{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-c46d9fa8{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-c46dbace{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c46dbad8{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c46dbad9{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c46dbae2{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c46dbae3{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-c46dbae4{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-c474067c"><caption></caption><thead><tr style="overflow-wrap:break-word;"><th class="cl-c46dbace"><p class="cl-c46d9f9e"><span class="cl-c469b12c">Code</span></p></th><th class="cl-c46dbad8"><p class="cl-c46d9fa8"><span class="cl-c469b12c">Name</span></p></th><th class="cl-c46dbad8"><p class="cl-c46d9fa8"><span class="cl-c469b12c">Definition</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-c46dbad9"><p class="cl-c46d9f9e"><span class="cl-c469b140">0</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Non-reactive</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">No colour within 2 minutes</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c46dbad9"><p class="cl-c46d9f9e"><span class="cl-c469b140">1</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Very Weak</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Pale red or light red (5R 6/1) just discernible within 2 minutes.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c46dbad9"><p class="cl-c46d9f9e"><span class="cl-c469b140">2</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Weak</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Pale red or light red (5R 6/1) within 1 minute.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c46dbad9"><p class="cl-c46d9f9e"><span class="cl-c469b140">3</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Moderate</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Red or weak red (5R 4 or 5/-) within 1 minute.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c46dbad9"><p class="cl-c46d9f9e"><span class="cl-c469b140">4</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Strong</span></p></td><td class="cl-c46dbae2"><p class="cl-c46d9fa8"><span class="cl-c469b140">Dusky red or dark red (5R 3/-) after 10 seconds.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-c46dbae3"><p class="cl-c46d9f9e"><span class="cl-c469b140">5</span></p></td><td class="cl-c46dbae4"><p class="cl-c46d9fa8"><span class="cl-c469b140">Very Strong</span></p></td><td class="cl-c46dbae4"><p class="cl-c46d9fa8"><span class="cl-c469b140">Dusky red or dark red (5R 3/-) within 10 seconds</span></p></td></tr></tbody></table></div>
+<div class="tabwid"><style>.cl-5d56a494{table-layout:auto;width:100%;}.cl-5d4a0d60{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-5d4a0d6a{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-5d4f3132{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-5d4f313c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-5d4f4d8e{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5d4f4d98{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5d4f4da2{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5d4f4da3{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5d4f4da4{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5d4f4dac{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-5d56a494"><caption style="margin:0pt;text-align:center;border-bottom: 0.00pt solid transparent;border-top: 0.00pt solid transparent;border-left: 0.00pt solid transparent;border-right: 0.00pt solid transparent;padding-top:3pt;padding-bottom:3pt;padding-left:3pt;padding-right:3pt;line-height: 1;background-color:transparent;"></caption><thead><tr style="overflow-wrap:break-word;"><th class="cl-5d4f4d8e"><p class="cl-5d4f3132"><span class="cl-5d4a0d60">Code</span></p></th><th class="cl-5d4f4d98"><p class="cl-5d4f313c"><span class="cl-5d4a0d60">Name</span></p></th><th class="cl-5d4f4d98"><p class="cl-5d4f313c"><span class="cl-5d4a0d60">Definition</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da2"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">0</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Non-reactive</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">No colour within 2 minutes</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da2"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">1</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Very Weak</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Pale red or light red (5R 6/1) just discernible within 2 minutes.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da2"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">2</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Weak</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Pale red or light red (5R 6/1) within 1 minute.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da2"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">3</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Moderate</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Red or weak red (5R 4 or 5/-) within 1 minute.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da2"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">4</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Strong</span></p></td><td class="cl-5d4f4da3"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Dusky red or dark red (5R 3/-) after 10 seconds.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-5d4f4da4"><p class="cl-5d4f3132"><span class="cl-5d4a0d6a">5</span></p></td><td class="cl-5d4f4dac"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Very Strong</span></p></td><td class="cl-5d4f4dac"><p class="cl-5d4f313c"><span class="cl-5d4a0d6a">Dusky red or dark red (5R 3/-) within 10 seconds</span></p></td></tr></tbody></table></div>
 </div>
 </div>
 </section>
@@ -724,53 +730,53 @@ cookieconsent.run({
 <p>A weathered-B horizon may also meet the requirements of a <a href="#sec-diag-roxh">redox-mottled horizon</a>, <a href="#sec-diag-argh">argillic horizon</a>, <a href="#sec-diag-cuth">cutanic horizon</a>, or <a href="#sec-diag-britb">brittle-B horizon</a>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-avery1980" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-avery1980" class="csl-entry" role="listitem">
 Avery, B. W. 1980. <em>Soil Classification for England and Wales (Higher Categories)</em>. Soil Survey Technical Monograph 14. Rothamstead Experimental Station, Harpenden, England: Soil Survey of England; Wales.
 </div>
-<div id="ref-childs1981" class="csl-entry" role="doc-biblioentry">
+<div id="ref-childs1981" class="csl-entry" role="listitem">
 Childs, C. W. 1981. <span>“Field Tests for Ferrous Iron and Ferric-Organic Complexes (on Exchange Sites or in Water-Soluble Forms) in Soils.”</span> <em>Soil Research</em> 19 (2): 175–80. <a href="https://doi.org/10.1071/SR9810175">https://doi.org/10.1071/SR9810175</a>.
 </div>
-<div id="ref-childs1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-childs1990" class="csl-entry" role="listitem">
 Childs, C. W., R. W. P. Palmer, and C. W. Ross. 1990. <span>“Thick Iron Oxide Pans in Soils of Taranaki, New Zealand.”</span> <em>Soil Research</em> 28 (2): 245–57. <a href="https://doi.org/10.1071/SR9900245">https://doi.org/10.1071/SR9900245</a>.
 </div>
-<div id="ref-clayden1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-clayden1990" class="csl-entry" role="listitem">
 Clayden, B., B. K. Daly, R. Lee, and G. Mew. 1990. <span>“The Nature, Occurrence, and Genesis of Placic Horizons.”</span> In <em>Fifth International Soil Correlation Meeting (ISCOM)</em>, 88–104. Lincoln, Nebraska, USA: USDA, Soil Conservation Service.
 </div>
-<div id="ref-clayden1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-clayden1989" class="csl-entry" role="listitem">
 Clayden, B., and A. E. Hewitt. 1989. <span>“Horizon Notation for New Zealand Soils.”</span> Lower Hutt, New Zealand. <a href="https://landcareresearch.on.worldcat.org/oclc/154214630">https://landcareresearch.on.worldcat.org/oclc/154214630</a>.
 </div>
-<div id="ref-eden1992" class="csl-entry" role="doc-biblioentry">
+<div id="ref-eden1992" class="csl-entry" role="listitem">
 Eden, D. N. 1992. <span>“A Standard Method for Determining Volcanic Glass Content in Andisols.”</span> <a href="https://doi.org/10.7931/DL1-DLRSR-2">https://doi.org/10.7931/DL1-DLRSR-2</a>.
 </div>
-<div id="ref-fieldes1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fieldes1966" class="csl-entry" role="listitem">
 Fieldes, Morice, and K. W. Perrott. 1966. <span>“The Nature of Allophane in Soils, Part 3 - Rapid Field and Laboratory Test for Allophane.”</span> <em>New Zealand Journal of Science</em> 9: 623–29.
 </div>
-<div id="ref-froggatt1990" class="csl-entry" role="doc-biblioentry">
+<div id="ref-froggatt1990" class="csl-entry" role="listitem">
 Froggatt, P. C., and D. J. Lowe. 1990. <span>“A Review of Late Quaternary Silicic and Some Other Tephra Formations from New Zealand: Their Stratigraphy, Nomenclature, Distribution, Volume, and Age.”</span> <em>New Zealand Journal of Geology and Geophysics</em> 33 (1): 89–109. <a href="https://doi.org/10.1080/00288306.1990.10427576">https://doi.org/10.1080/00288306.1990.10427576</a>.
 </div>
-<div id="ref-griffiths1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-griffiths1991" class="csl-entry" role="listitem">
 Griffiths, E. 1991. <span>“Assessing Soil Permeability Class from Soil Morphology.”</span> Havelock North, New Zealand. <a href="http://digitallibrary.landcareresearch.co.nz.landcareresearch.idm.oclc.org/digital/collection/p20022coll26/id/2/rec/23">http://digitallibrary.landcareresearch.co.nz.landcareresearch.idm.oclc.org/digital/collection/p20022coll26/id/2/rec/23</a>.
 </div>
-<div id="ref-laffan1979" class="csl-entry" role="doc-biblioentry">
+<div id="ref-laffan1979" class="csl-entry" role="listitem">
 Laffan, M. D. 1979. <span>“A Comment on the Identification of the Lithic Contact (USDA Soil Taxonomy) in Soils Formed from Greywacke in the Marlborough Sounds.”</span> <em>New Zealand Soil News</em> 27 (2): 70–71. <a href="https://doi.org/10.7931/DL30-1979_VOL27_2_ORC">https://doi.org/10.7931/DL30-1979_VOL27_2_ORC</a>.
 </div>
-<div id="ref-mcqueen1981" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mcqueen1981" class="csl-entry" role="listitem">
 McQueen, David J. 1981. <span>“A New Method of Aggregate Stability Measurement.”</span> <em>New Zealand Soil News</em> 29 (4): 127–32. <a href="https://doi.org/10.7931/DL30-1981_VOL29_4_ORC">https://doi.org/10.7931/DL30-1981_VOL29_4_ORC</a>.
 </div>
-<div id="ref-milne1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-milne1991" class="csl-entry" role="listitem">
 Milne, J. D. G., B. Clayden, P. L. Singleton, and A. D. Wilson. 1991. <em>Soil Description Handbook</em>. 1st ed. Lower Hutt, New Zealand: New Zealand Department of Scientific; Industrial Research. <a href="https://landcareresearch.on.worldcat.org/oclc/1255392569">https://landcareresearch.on.worldcat.org/oclc/1255392569</a>.
 </div>
-<div id="ref-parfitt1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-parfitt1984" class="csl-entry" role="listitem">
 Parfitt, R. L. 1984. <span>“A Proposed Classification of Yellow-Brown Loams and Yellow-Brown Pumice Soils. I, the Boundary with Other Soils at the Highest Category.”</span> Lower Hutt, New Zealand. <a href="http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-LAB-CM05">http://doi.org.landcareresearch.idm.oclc.org/10.7931/DL1-LAB-CM05</a>.
 </div>
-<div id="ref-soilsurveystaff1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-soilsurveystaff1999" class="csl-entry" role="listitem">
 Soil Survey Staff. 1999. <em>Soil Taxonomy: A Basic System of Soil Classification for Making and Interpreting Soil Surveys</em>. 2nd ed. Agriculture Handbook 436. Washington D.C., USA: United States Department of Agriculture. <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/">https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/</a>.
 </div>
-<div id="ref-taylor1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-taylor1962" class="csl-entry" role="listitem">
 Taylor, N. H., and I. J. Pohlen. 1962. <span>“Classification of New Zealand Soils.”</span> In, 15–45. 26(1). Wellington, New Zealand: New Zealand Department of Scientific; Industrial Research. <a href="https://doi.org/10.7931/dl1-sbb-026-1">https://doi.org/10.7931/dl1-sbb-026-1</a>.
 </div>
-<div id="ref-wilson1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wilson1987" class="csl-entry" role="listitem">
 Wilson, A. D. 1987. <span>“Classification of Red and Brown Loams and Brown Granular Soils.”</span> Lower Hutt, New Zealand.
 </div>
 </div>
@@ -919,9 +925,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1126,7 +1146,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

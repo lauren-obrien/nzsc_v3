@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.134">
+<meta name="generator" content="quarto-1.3.272">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -108,7 +108,6 @@ cookieconsent.run({
 });
 </script> 
   
-<link href="site_libs/tabwid-1.1.2/tabwid.css" rel="stylesheet">
 
 
 </head>
@@ -117,11 +116,16 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Ultic Soils</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Ultics.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Ultic Soils</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -129,26 +133,27 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">New Zealand Soil Classification v3.0</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+    <a href="https://github.com/lauren-obrien/nzsc_v3" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">New Zealand Soil Classification</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">New Zealand Soil Classification</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -264,6 +269,7 @@ cookieconsent.run({
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -336,7 +342,7 @@ cookieconsent.run({
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 
-<div class="tabwid"><style>.cl-e3b9c13e{table-layout:auto;width:100%;}.cl-e3add89c{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-e3add8a6{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-e3b32496{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-e3b324a0{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-e3b3444e{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-e3b34458{background-color:transparent;vertical-align: top;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-e3b34462{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-e3b34463{background-color:transparent;vertical-align: top;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-e3b34464{background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-e3b9c13e"><thead><tr style="overflow-wrap:break-word;"><th class="cl-e3b3444e"><p class="cl-e3b32496"><span class="cl-e3add89c">Code</span></p></th><th class="cl-e3b3444e"><p class="cl-e3b32496"><span class="cl-e3add89c">Group</span></p></th><th class="cl-e3b3444e"><p class="cl-e3b32496"><span class="cl-e3add89c">Subgroup</span></p></th><th class="cl-e3b3444e"><p class="cl-e3b32496"><span class="cl-e3add89c">Example Series</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add89c">UD</span></p></td><td rowspan="2" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add8a6">Densipan</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Perch-gleyed</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Wharekohe</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Mottled</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Hukerenui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="3" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add89c">UE</span></p></td><td rowspan="3" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add8a6">Albic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Perch-gleyed</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Waikare, Okaka</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Mottled</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Rangiora</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Yellow</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Riponui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add89c">UP</span></p></td><td rowspan="2" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add8a6">Perch-gley</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Sandy</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">pt. Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Typic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Omu</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="3" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add89c">US</span></p></td><td rowspan="3" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add8a6">Sandy</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Albic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Mottled</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">pt. Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Typic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">pt. Red Hill</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="6" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add89c">UY</span></p></td><td rowspan="6" class="cl-e3b34458"><p class="cl-e3b324a0"><span class="cl-e3add8a6">Yellow</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Magnesic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Mottled-podzolic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Tennyson</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Mottled</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Puhoi</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Podzolic</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Opouri</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Buried-granular</span></p></td><td class="cl-e3b34462"><p class="cl-e3b32496"><span class="cl-e3add8a6">Kairui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-e3b34464"><p class="cl-e3b32496"><span class="cl-e3add8a6">Typic</span></p></td><td class="cl-e3b34464"><p class="cl-e3b32496"><span class="cl-e3add8a6">Warkworth</span></p></td></tr></tbody></table></div>
+<div class="tabwid"><style>.cl-8a33415c{table-layout:auto;width:100%;}.cl-8a23e806{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8a23e810{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8a2a045c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8a2a0466{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8a2a231a{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8a2a2324{background-color:transparent;vertical-align: top;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8a2a2325{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8a2a232e{background-color:transparent;vertical-align: top;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8a2a232f{background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-8a33415c"><thead><tr style="overflow-wrap:break-word;"><th class="cl-8a2a231a"><p class="cl-8a2a045c"><span class="cl-8a23e806">Code</span></p></th><th class="cl-8a2a231a"><p class="cl-8a2a045c"><span class="cl-8a23e806">Group</span></p></th><th class="cl-8a2a231a"><p class="cl-8a2a045c"><span class="cl-8a23e806">Subgroup</span></p></th><th class="cl-8a2a231a"><p class="cl-8a2a045c"><span class="cl-8a23e806">Example Series</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e806">UD</span></p></td><td rowspan="2" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e810">Densipan</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Perch-gleyed</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Wharekohe</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Mottled</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Hukerenui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="3" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e806">UE</span></p></td><td rowspan="3" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e810">Albic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Perch-gleyed</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Waikare, Okaka</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Mottled</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Rangiora</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Yellow</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Riponui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e806">UP</span></p></td><td rowspan="2" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e810">Perch-gley</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Sandy</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">pt. Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Typic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Omu</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="3" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e806">US</span></p></td><td rowspan="3" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e810">Sandy</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Albic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Mottled</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">pt. Tangitiki</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Typic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">pt. Red Hill</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="6" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e806">UY</span></p></td><td rowspan="6" class="cl-8a2a2324"><p class="cl-8a2a0466"><span class="cl-8a23e810">Yellow</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Magnesic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Mottled-podzolic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Tennyson</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Mottled</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Puhoi</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Podzolic</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Opouri</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Buried-granular</span></p></td><td class="cl-8a2a2325"><p class="cl-8a2a045c"><span class="cl-8a23e810">Kainui</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8a2a232f"><p class="cl-8a2a045c"><span class="cl-8a23e810">Typic</span></p></td><td class="cl-8a2a232f"><p class="cl-8a2a045c"><span class="cl-8a23e810">Warkworth</span></p></td></tr></tbody></table></div>
 </div>
 </div>
 </section>
@@ -524,8 +530,8 @@ cookieconsent.run({
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-mcqueen1981" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-mcqueen1981" class="csl-entry" role="listitem">
 McQueen, David J. 1981. <span>“A New Method of Aggregate Stability Measurement.”</span> <em>New Zealand Soil News</em> 29 (4): 127–32. <a href="https://doi.org/10.7931/DL30-1981_VOL29_4_ORC">https://doi.org/10.7931/DL30-1981_VOL29_4_ORC</a>.
 </div>
 </div>
@@ -676,9 +682,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -883,7 +903,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
