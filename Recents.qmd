@@ -102,7 +102,7 @@ Other Recent Soils that are have sand or loamy sand texture and have less than 3
 
 #### **RF** {#sec-key-RF}
 
-Other Recent Soils that have fluvial features and are not buried by more than 30 cm of non-fluvial soil material.
+Other Recent Soils that have [fluvial features](Diagnostics.qmd#sec-diag-fluv) and are not buried by more than 30 cm of non-fluvial soil material.
 
 ::: {style="text-align: right"}
 [**FLUVIAL RECENT SOILS**](#sec-RF)
