@@ -15,7 +15,7 @@ book:
     anonymize-ip: true
   cookie-consent: 
     type: express
-    style: headline
+    style: simple
   chapters:
     - index.qmd
     - Foreword.qmd
@@ -64,3 +64,6 @@ knitr:
     echo: false
     fig.show: 'hold'
     results: 'hold'
+    warning: false
+    message: false
+    error: false
