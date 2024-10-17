@@ -46,12 +46,14 @@ The soil horizons are examined and the assignment is then made by following the 
 
 The name given to a soil assigned to a subgroup is made up of three elements in the sequence: subgroup, group, and order (for example, [Nodular Perch-gley Oxidic Soils](Oxidics.qmd#sec-key-XPN)). @fig-one illustrates the relationships between subgroups and groups in the [Oxidic Soils](Oxidics.qmd#sec-ord-X) order.
 
-```{r}
-#| label: fig-one
-#| fig.cap: "The hierarchy of the [Oxidic Soils](Oxidics.qmd#sec-ord-X) as an example of the hierarchical relationships between orders, groups and subgroups. As the diagram suggests, the range of soil properties for each class is related to hierarchical position."
+::: {#fig-one}
 
-knitr::include_graphics('images/Figure-001_oxidic-soils-hierarchy.png')
-```
+![](images/Figure-001_oxidic-soils-hierarchy.png)
+
+The hierarchy of the [Oxidic Soils](Oxidics.qmd#sec-ord-X) as an example of the hierarchical relationships between orders, groups and subgroups. As the diagram suggests, the range of soil properties for each class is related to hierarchical position.
+
+:::
+
 
 ## Misclassification {#sec-intro-misclass}
 
