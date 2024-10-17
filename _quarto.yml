@@ -42,6 +42,7 @@ book:
     - Appendix.qmd
 
 bibliography: NZSC_reference_list_3e.bib
+csl: mwlr-citation-style-second-ed.csl
 
 format:
   html:

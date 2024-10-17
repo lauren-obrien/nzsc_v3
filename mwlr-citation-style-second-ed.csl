@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
+  <info>
+    <title>MWLR Citation Style (2nd ed)</title>
+    <title-short>mwlr-second-ed</title-short>
+    <id>http://www.zotero.org/styles/mwlr-citation-style-second-ed</id>
+    <link href="http://www.zotero.org/styles/mwlr-citation-style-second-ed" rel="self"/>
+    <link href="http://www.zotero.org/styles/council-of-science-editors-author-date" rel="template"/>
+    <link href="https://landcareresearch.sharepoint.com/Sites/research/SitePages/editing/guide-to-style.aspx" rel="documentation"/>
+    <author>
+      <name>Andrew Neverman</name>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="science"/>
+    <summary>Based on the MWLR guide to style.</summary>
+    <updated>2023-02-08T21:26:14+00:00</updated>
+  </info>
+  <macro name="editor-translator">
+    <names variable="editor translator" delimiter="; ">
+      <name name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="always"/>
+      <label form="long" prefix=", "/>
+    </names>
+  </macro>
+  <macro name="author">
+    <group>
+      <names variable="author">
+        <name name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="always"/>
+        <label form="long" prefix=", "/>
+        <substitute>
+          <names variable="editor"/>
+          <names variable="translator"/>
+          <text variable="title" form="short"/>
+        </substitute>
+      </names>
+    </group>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" delimiter=", " initialize-with="." and="text"/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text variable="title" form="short"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if match="any" variable="DOI">
+        <text variable="DOI" prefix="https://doi.org/"/>
+      </if>
+      <else>
+        <text variable="URL"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="title">
+    <group delimiter=" ">
+      <text variable="title" suffix="."/>
+      <choose>
+        <if type="thesis" match="any">
+          <text variable="genre" form="long" prefix="[" suffix="]"/>
+        </if>
+      </choose>
+      <choose>
+        <if type="report" match="any">
+          <text macro="report-detals"/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="container-title" match="none">
+          <choose>
+            <if variable="URL">
+              <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
+            </if>
+          </choose>
+        </if>
+      </choose>
+    </group>
+  </macro>
+  <macro name="publisher-place">
+    <choose>
+      <if variable="publisher-place" match="none" type="report">
+        <text value="[place unknown]"/>
+      </if>
+      <else>
+        <text variable="publisher-place"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="publisher">
+    <group delimiter="; ">
+      <group delimiter=": ">
+        <text macro="publisher-place"/>
+        <text variable="publisher"/>
+      </group>
+      <text macro="cited"/>
+    </group>
+  </macro>
+  <macro name="cited">
+    <choose>
+      <if variable="URL">
+        <group delimiter=" " prefix=" [" suffix="]">
+          <text term="accessed"/>
+          <date variable="accessed">
+            <date-part name="year"/>
+            <date-part name="month" form="short" strip-periods="true" prefix=" "/>
+            <date-part name="day" prefix=" "/>
+          </date>
+        </group>
+      </if>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <label plural="never" suffix=" " variable="page" form="short"/>
+    <text variable="page"/>
+  </macro>
+  <macro name="year-date">
+    <date delimiter="" variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="container">
+    <text variable="container-title" form="short" strip-periods="true"/>
+    <choose>
+      <if variable="URL">
+        <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="edition">
+    <choose>
+      <if is-numeric="edition">
+        <group delimiter=" ">
+          <number variable="edition" form="ordinal"/>
+          <text term="edition" form="short"/>
+        </group>
+      </if>
+      <else>
+        <text variable="edition" suffix="."/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="report-detals">
+    <choose>
+      <if type="report" match="any">
+        <text variable="title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="false" givenname-disambiguation-rule="by-cite">
+    <sort>
+      <key variable="issued"/>
+      <key macro="author-short"/>
+    </sort>
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <group delimiter=", ">
+        <group delimiter=" ">
+          <text macro="author-short"/>
+          <text macro="year-date"/>
+        </group>
+        <group delimiter=" ">
+          <label variable="locator" form="short" plural="never"/>
+          <text variable="locator"/>
+        </group>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true" et-al-min="12" et-al-use-first="10">
+    <sort>
+      <key macro="author"/>
+      <key macro="year-date"/>
+    </sort>
+    <layout>
+      <group delimiter=" " suffix=".">
+        <text macro="author"/>
+        <text macro="year-date" suffix="."/>
+        <text macro="title"/>
+      </group>
+      <group suffix=".">
+        <choose>
+          <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+            <group prefix=" " suffix="." delimiter=" ">
+              <text macro="edition"/>
+              <text macro="editor-translator"/>
+            </group>
+            <text prefix=" " macro="publisher"/>
+          </if>
+          <else-if type="chapter paper-conference" match="any">
+            <text term="in" text-case="capitalize-first" suffix=":" prefix=" "/>
+            <group prefix=" " delimiter=". ">
+              <text macro="editor-translator"/>
+              <text macro="container"/>
+              <text variable="volume" prefix="Vol. "/>
+              <text macro="edition"/>
+              <group suffix="." delimiter="; ">
+                <text macro="publisher"/>
+                <text macro="pages"/>
+              </group>
+            </group>
+          </else-if>
+          <else>
+            <text macro="editor-translator" suffix="."/>
+            <group prefix=" " suffix=".">
+              <text macro="container" suffix="."/>
+              <group delimiter=" ">
+                <text macro="cited"/>
+                <group>
+                  <text variable="volume" prefix=" "/>
+                  <text variable="issue" prefix="(" suffix=")"/>
+                </group>
+              </group>
+              <text variable="page" prefix=":"/>
+            </group>
+          </else>
+        </choose>
+      </group>
+      <text prefix=" " macro="access"/>
+    </layout>
+  </bibliography>
+</style>
