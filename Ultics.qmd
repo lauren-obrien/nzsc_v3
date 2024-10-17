@@ -91,7 +91,7 @@ Other Ultic Soils that have a [gley profile form](Diagnostics.qmd#sec-diag-gleyp
 
 #### **US** {#sec-key-US}
 
-Other Ultic soils with more than 60% sand in the B horizon.
+Other Ultic Soils with more than 60% sand in the B horizon.
 
 ::: {style="text-align: right"}
 [**SANDY ULTIC SOILS**](#sec-US)

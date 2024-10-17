@@ -75,7 +75,7 @@ ft_R
 
 #### **RH** {#sec-key-RH}
 
-Recent soils that have either
+Recent Soils that have either
 
 1.  mean annual soil temperature at 30 cm from the mineral soil surface of at least 2.5°C more than the mean annual air temperature, or
 2.  pH of 4.8 or less in some part of a subsurface horizon at less than 60 cm from the mineral soil surface.
@@ -94,7 +94,7 @@ Other Recent Soils that have a [lithic](Diagnostics.qmd#sec-diag-lithc) or [para
 
 #### **RS** {#sec-key-RS}
 
-Other Recent Soils that are have sand or loamy sand texture and have less than 35% (by volume) gravel, in all horizons between the base of the A horizon and 60 cm from the mineral soil surface. Lamellae of sandy loam (of insufficient thickness to meet the requirements of an argillic horizon) may be present.
+Other Recent Soils that have sand or loamy sand texture and have less than 35% (by volume) gravel, in all horizons between the base of the A horizon and 60 cm from the mineral soil surface. Lamellae of sandy loam (of insufficient thickness to meet the requirements of an argillic horizon) may be present.
 
 ::: {style="text-align: right"}
 [**SANDY RECENT SOILS**](#sec-RS)
